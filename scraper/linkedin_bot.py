@@ -10,6 +10,8 @@ def run_scraper(on_job_found_callback):
     Fires the on_job_found_callback every time a job is extracted.
     """
     logging.basicConfig(level=logging.INFO)
+    # Silence noisy RabbitMQ / pika logs
+    logging.getLogger("pika").setLevel(logging.WARNING)
 
     # 1. Initialize the scraper
     scraper = LinkedinScraper(
