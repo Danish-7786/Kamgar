@@ -1,3 +1,4 @@
+from psycopg2.errors import TooManyColumns
 from asyncio import base_events
 import psycopg2
 from psycopg2.extras import Json
@@ -78,5 +79,61 @@ class DatabaseManager:
         """Closes the database connection cleanly."""
         if self.connection:
             self.connection.close()
+    def job_exists(self,link:str)-> bool :
+        query = "SELECT 1 FROM jobs WHERE link = %s"
+        try:
+            with self.connection.cursor as cur:
+                rows = cur.execute(query,(link,))
+                return cur.fetchone() is not None
+        except Exception as e:
+            print(f"Error checking if job exists: {e}")
+            return False
+                    
 
 
+    def fetch_jobs(self, min_score:int = 0,verdict:str = None):
+        """Fetch jobs from the database based on AI score and verdict."""
+        query = """
+        SELECT id, title,company,link,description,ai_score,verdict,missing_skills,red_flags,created_at 
+        FROM jobs
+        WHERE ai_score >= %s
+        ORDER_BY ai_score DESC
+        """
+        params = [min_score]
+        try:
+            with self.connection.cursor() as cur:
+                cur.execute(query,params)
+                columns = [col[0] for col in cur.description]
+                result = []
+                for row in cur.fetchall():
+                    result.append(dict(zip(columns,row)))
+                    # zip -> bounds the attribute to the value 
+                    # {cols : "name","age"}
+                    # {values : "Anjan", 23 };
+                    # after zip 
+                    # {"name":"danish","Age":23}
+                return result
+        except Exception as e:
+            print(f"Failed to fetch a jobs: {e}")
+            return []
+    
+    def fetch_jobs_by_id(self,job_id:int):
+        """Fetch a specific job by its ID"""
+        query =  """ SELECT id, title, company, link, description, ai_score, verdict, missing_skills, red_flags, created_at 
+        FROM jobs
+        WHERE id = %s
+        """
+        try:
+            with self.connection.cursor() as cur:
+                cur.execute(query, (job_id,))
+                # Why it fails: (job_id) is treated as a regular integer in parentheses, not a tuple. psycopg2 expects a tuple/sequence.
+                #  Fix: Add a trailing comma to make it a tuple:
+
+                columns = [col[0] for col in cur.description]
+                row = cur.fetchone()
+                if row:
+                    return dict(zip(columns,row))
+                return None
+        except Exception as e:
+            print(f"Failed to fetch job by ID: {e}")
+            return None                

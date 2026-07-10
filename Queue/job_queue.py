@@ -93,11 +93,14 @@ def ai_worker():
 
     def callback(ch, method, properties, body):
         job = json.loads(body)
-        print("-" * 50)
+        print("-" * 80)
+        
+        
+        if db_client.job_exists(job["link"]):
+            print(f"[DUPLICATE] URL already exists in DB. Skipping: {job['title']} at {job['company']}")
+            ch.basic_ack(delivery_tag = method.delivery_tag)
+            return
         print(f"AI Processing: {job['title']} at {job['company']}")
-        
-        # Simulate AI processing (e.g., Gemini API call)
-        
         
         final_result = ai_scorer.evaluate_job(job_title=job['title'], job_description=job['description'])
         # AI Scorer returns verdicts like "Strong Match", "Partial Match", "Poor Match"
