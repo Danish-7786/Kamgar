@@ -1,0 +1,2228 @@
+"id","site","job_url","job_url_direct","title","company","location","date_posted","job_type","salary_source","interval","min_amount","max_amount","currency","is_remote","job_level","job_function","listing_type","emails","description","company_industry","company_url","company_logo","company_url_direct","company_addresses","company_num_employees","company_revenue","company_description","skills","experience_range","company_rating","company_reviews_count","vacancy_count","work_from_home_type"
+"in-670a388d9922341b","indeed","https://in.indeed.com/viewjob?jk=670a388d9922341b","https://grnh.se/8y8ofbc15us","Full Stack Developer - Product Engineering","Avathon","KA, IN","2026-07-12","","","","","","",False,"","","","","**Who We Are \\& Why Join Us**
+
+
+**Avathon** is the leading Industrial AI autonomy platform, helping customers across heavy industries \\- energy, mining, manufacturing, aerospace, defense, and logistics \\- accelerate the journey toward autonomous operations. Our platform is built on a Computational Knowledge Graph foundation that contextualizes and connects operational data across siloed systems, bringing together time series, structured, unstructured, and machine vision data to power AI\\-driven applications in asset performance management, supply chain intelligence, visual AI, and global trade management. With capabilities spanning digital twins, normal behavior modeling, natural language processing, and computer vision, Avathon delivers real\\-time predictive intelligence and agentic decision\\-making at industrial scale.
+
+
+**Cutting\\-Edge AI Innovation** \\- Join a team at the forefront of AI, developing groundbreaking solutions that shape the future. **High\\-Growth Environment** \\- Thrive in a fast\\-scaling startup where agility, collaboration, and rapid professional growth are the norm. **Meaningful Impact** \\- Work on AI\\-driven projects that drive real change across industries and improve lives.
+
+
+
+Learn more at: avathon.com
+
+ **Work Location: Bangalore**
+
+
+**Five Days onsite**
+
+
+
+At Avathon, we are building cutting\\-edge AI solutions that transform operations across asset\\-intensive industries such as Supply Chain, Logistics, Energy, Mining, Aerospace, and Industrial Manufacturing. Avathon is an enterprise\\-grade native AI and data platform designed to unify multiple complex applications under a single pane of glass. We are moving beyond legacy monoliths into a highly scalable, decoupled Micro Front\\-End (MFE) architecture powered by a Central Knowledge Graph (CKG).
+
+
+
+As a **Full Stack Engineer** on the Platform team, you will be instrumental in building our core infrastructure and commercializing specialized domain apps. You will leverage modern AI coding tools to maintain high developer velocity, ensuring architectural consistency across the ecosystem.
+
+
+**You Will**
+------------
+
+
+* **Architecting the Platform:** Building and scaling decoupled applications using our standard MFE architecture (Webpack 5 Module Federation) and Django/PostgreSQL microservices. **Impact:** This reduces DevOps overhead and ensures independent, scalable deployments.
+* **Driving High\\-Impact Integrations:** Leading strategic initiatives, such as integrating the DMA Government application into the commercial Avathon Platform as a standardized MFE and Microservice. **Impact:** This standardizes our tech stack, eliminates redundant code, and accelerates our commercial go\\-to\\-market strategy.
+* **Building AI\\-Grounded Features:** Developing features that interact seamlessly with our AI Model Garden APIs and Central Knowledge Graph (CKG).
+* **Maximizing Developer Velocity:** Utilizing reusable platform patterns and heavily leveraging AI development tools (GitHub Copilot, Claude, etc.) to rapidly take products from prototype to production.
+* **Collaborating Globally:** Working with cross\\-functional teams to extend our foundational backend data tier, including robust identity/access control and event\\-driven webhooks.
+
+**You'll Have**
+---------------
+
+
+* BS or MS in Computer Science or a related field, with a strong foundation in system design and data structures.
+* 4\\+ years of experience building and deploying scalable full\\-stack applications. (Startup experience is a plus).
+* **Frontend Expertise:** Deep experience with React 18, TypeScript, and modern state/form management tools like Redux Toolkit, React Router v7, and React Hook Form \\+ Zod.
+* **Backend Expertise:** Strong proficiency in Python, Django 5\\.x, and PostgreSQL, with experience designing both REST APIs and GraphQL endpoints.
+* **AI\\-Assisted Development:** Proven experience utilizing AI tools (e.g., Copilot, Claude) to accelerate coding, debugging, and test generation.
+* Experience with Git, CI/CD pipelines, and agile software development tools.
+
+**Preferred Qualifications**
+----------------------------
+
+
+* Experience working with Micro Front\\-End (MFE) architectures or migrating monoliths to decoupled services.
+* Experience with Graph databases or utilizing a Central Knowledge Graph for spatial/relational querying.
+* Familiarity with Identity and Access Management (IAM) systems like Keycloak (OIDC/OAuth2\\) and implementing strict Role\\-Based Access Control (RBAC).
+* Experience with modern CSS frameworks like Tailwind CSS.
+* Experience building event\\-driven systems, asynchronous message queues, or webhook dispatchers.
+**Interview Process**
+---------------------
+
+
+
+As part of the interview process, you will be asked to complete a technical case study assessment. Expect atleast two\\-three rounds of Technical interviewing rounds and one onsite round.
+
+
+*Avathon is an Equal Opportunity Employer. All qualified applicants will receive consideration for employment without regard to race, color, religion, sex, sexual orientation, gender identity, national origin, age, pregnancy, genetic information, disability, status as a protected veteran, or any other protected category under applicable federal, state, and local laws.*
+
+
+*Avathon is committed to providing reasonable accommodations throughout the recruiting process. If you need a reasonable accommodation, please* *contact us* *to discuss how we can assist you.*","","https://in.indeed.com/cmp/Avathon","","","","","","","","","","","",""
+"in-fbe57b474d1d7cb8","indeed","https://in.indeed.com/viewjob?jk=fbe57b474d1d7cb8","http://in.indeed.com/job/full-stack-developerflutter-django-fbe57b474d1d7cb8","Full Stack Developer(Flutter & Django)","Imate","Remote, IN","2026-07-12","","","","","","",True,"","","","abhinavseth88@hotmail.com","We’re looking for an experienced **Full\\-Stack Developer** who can build both mobile apps and websites using **Flutter** for the front end and **Django** for the back end, with **PostgreSQL** as the database. Our project uses the MVC architecture, so your work will help keep the business logic cleanly separated from the UI.
+
+The ideal candidate should be comfortable reading technical requirements and working independently, following good coding standards and best practices for performance and security. You should also have at least a few live projects in **both Flutter and Django**.
+
+**Education:** B.Tech in Computer Engineering or higher.
+
+**Experience:** 5–10 years (This position is not for freshers.)
+
+**Key Responsibilities:**
+
+* ✅ Develop and maintain mobile apps for iOS and Android, as well as web apps using Flutter.
+* ✅ Design and manage the backend with Django and PostgreSQL.
+* ✅ Write secure, scalable code and follow backend best practices.
+* ✅ Integrate APIs and handle third\\-party services smoothly.
+* ✅ Add multi\\-language support (English, French, etc.) for the app and website.
+* ✅ Optimize both frontend and backend for better speed and user experience.
+* ✅ Fix bugs, troubleshoot issues, and keep improving the application.
+
+**How to Apply:**  
+**Please do not call on the mobile number.**  
+Send your resume and details by email to **abhinavseth88@hotmail.com**.  
+We’ll review applications in 7–10 days — thanks for your patience!
+
+Job Type: Contractual / Temporary
+
+Contract length: 1 month
+
+Benefits:
+
+* Work from home
+
+Work Location: Remote
+
+Job Types: Contractual / Temporary, Freelance
+
+Pay: ₹20,000\\.00 \\- ₹45,000\\.00 per month
+
+Education:
+
+* Bachelor's (Preferred)
+
+Work Location: Remote","","https://in.indeed.com/cmp/Imate","","","","","","","","","","","",""
+"in-a38e3916b4f2e6a9","indeed","https://in.indeed.com/viewjob?jk=a38e3916b4f2e6a9","https://paramsoftware.com/career/eyJpdiI6IjVEZmFqMi9lKzdXeHB4ZGRSSDZIMUE9PSIsInZhbHVlIjoicUxzVFg0R2IyWmVST0NjbEoranZGZz09IiwibWFjIjoiYjRlMTkzNDFkNjVjY2YwNjk5ODY3ZDgwY2Q1YmJkZjE2M2Q1ODc4OWU3MDZjYjNiMDI0MDU5NGRiYmU2NTQzYiIsInRhZyI6IiJ9","Laravel Developer","Param Software","GJ, IN","2026-07-12","fulltime","","","","","",False,"","","","hr@paramsoftware.com","* Rajkot
+* Full Time
+**Job Details**
+---------------
+
+
+**Job Overview**
+
+
+We are looking for an experienced **Full Stack Laravel Developer** who is proficient in developing and maintaining robust ERP solutions. The ideal candidate should have hands\\-on experience in full\\-stack development using Laravel and a good understanding of business logic in ERP systems.
+
+
+**Key Responsibilities**
+
+
+* Design, develop, and maintain high\\-quality web applications using Laravel.
+
+
+* Work on customized ERP solutions tailored to client requirements.
+
+
+* Collaborate with front\\-end developers, UI/UX designers, and other backend developers.
+
+
+* Integrate third\\-party APIs and tools as needed.
+
+
+* Ensure code quality through unit testing and peer code reviews.
+
+
+* Participate in the full software development lifecycle: requirement gathering, architecture design, development, testing, deployment, and maintenance.
+
+
+* Troubleshoot, test, and maintain the core product software and databases to ensure strong optimization and functionality.
+
+
+* Document the development process, architecture, and standard components.
+
+
+**Required Skills \\& Qualifications**
+
+
+* Minimum **3 years of hands\\-on experience** with the Laravel framework.
+
+
+* Solid understanding of **PHP**, **MySQL**, and **OOP concepts**.
+
+
+* Experience in **ERP development** will be a strong advantage.
+
+
+* Proficient in front\\-end technologies like **HTML, CSS, JavaScript, and Vue.js or React**.
+
+
+* Familiarity with **version control tools** like Git.
+
+
+* Strong problem\\-solving skills and the ability to work independently.
+
+
+* Good communication and collaboration skills.
+
+
+**Preferred Qualifications**
+
+
+* Prior experience with **RESTful APIs** and **Microservices Architecture**.
+
+
+* Knowledge of **Laravel Framework.**
+
+
+* Understanding of **Agile/Scrum methodologies**.
+
+
+* Exposure to **cloud platforms** like AWS or Azure is a plus.
+
+
+**Location Preference**
+
+
+* Candidates **residing in Rajkot** will be given **first preference**.
+
+
+* Applicants from other locations must be **willing to relocate** to Rajkot.
+
+
+**Why Join Us?**
+
+
+* Be part of a growing and innovative team.
+
+
+* Work on impactful projects with real\\-world applications.
+
+
+* Friendly and collaborative work environment.
+
+
+* Opportunities for continuous learning and career growth.
+
+
+**To Apply:**
+
+
+Send your updated resume to hr@paramsoftware.com with the subject line “Application for Laravel Developer – Rajkot”.
+
+
+##### **Job Overview**
+
+
+* ###### **Location:**
+
+
+Rajkot
+* ###### **Job Type:**
+
+
+Full Time
+* ###### **Openings:**
+
+
+1","","https://in.indeed.com/cmp/Param-Software","","https://www.speedpeq.com","Indore","2 to 10","","","","","","","",""
+"in-e4bd3e85da6270ab","indeed","https://in.indeed.com/viewjob?jk=e4bd3e85da6270ab","http://in.indeed.com/job/software-developer-e4bd3e85da6270ab","Software Developer","Gleco Dentistry","Remote, IN","2026-07-12","fulltime","","","","","",True,"","","","","Software Developer (Python \\& AI Tools)
+
+**Job Type:** Full\\-Time  
+**Location:** Remote (Work From Home)  
+**Experience:** 2–3\\+ Years
+
+Job Summary
+
+We are looking for an experienced Software Developer to join our team. The ideal candidate should have strong programming skills, experience building and maintaining applications, and practical knowledge of modern AI tools. You will work on software development, automation, AI integrations, and improving existing systems.
+
+Key Responsibilities
+
+* Develop, test, and maintain software applications.
+* Write clean, efficient, and scalable code.
+* Build and integrate APIs and third\\-party services.
+* Work with Python and other modern development technologies.
+* Use AI tools to improve productivity and automate workflows.
+* Debug, troubleshoot, and optimize existing applications.
+* Collaborate with the team to deliver high\\-quality solutions.
+
+Required Skills
+
+* 2–3\\+ years of software development experience.
+* Strong knowledge of **Python**.
+* Experience working with APIs and backend development.
+* Good understanding of databases (SQL/NoSQL).
+* Familiarity with Git or other version control systems.
+* Hands\\-on experience using AI tools such as **ChatGPT, Claude, Gemini, Perplexity**, or similar AI platforms.
+* Strong analytical and problem\\-solving skills.
+* Good communication skills.
+
+Preferred Skills
+
+* Experience with automation tools and AI\\-assisted development.
+* Knowledge of cloud platforms or deployment processes.
+* Experience working in a startup or fast\\-paced environment.
+
+Eligibility
+
+* Minimum **2–3 years** of relevant experience.
+* **Freshers are not eligible** for this role.
+
+Salary
+
+Salary will be discussed during the interview and will depend on the candidate's skills and experience.
+
+Pay: ₹25,000\\.00 \\- ₹50,000\\.00 per month
+
+Benefits:
+
+* Paid sick time
+* Paid time off
+
+Work Location: Remote","","https://in.indeed.com/cmp/Gleco-Dentistry","","","","","","","","","","","",""
+"in-338c9090e0e64dcf","indeed","https://in.indeed.com/viewjob?jk=338c9090e0e64dcf","http://in.indeed.com/job/technical-sales-executive-software-developer-career-path-338c9090e0e64dcf","Technical Sales Executive - (Software Developer Career Path)","SPIRO PRIME TECH SERVICES","TN, IN","2026-07-12","fulltime","","","","","",False,"","","","","* **Company:** SPIRO PRIME TECH SERVICES – Research \\& Project Development Company (R\\&D)
+* **Recruitment Type:** Direct Company Hiring (Not a Consultancy)
+* **Salary:** Starting from ₹15,000 per month
+* **Eligibility:** Freshers Only (Candidates with arrears may also apply)
+* **Probation Period:** 6 Months
+
+**Career Growth Opportunity**
+
+* During the 6\\-month probation period, you will begin your career as a **Technical Sales Executive**. Based on your performance, commitment, technical aptitude, target achievements, lead generation performance, and overall contribution, you may be transferred to the **Software Developer** position upon successful completion of the probation period.
+* While working as a Technical Sales Executive, you will receive specialized training designed to help you build the technical skills required for a successful career in Software Development.
+* The opportunity to move into a Software Developer role will be based on your overall performance, commitment, contribution, target achievements, lead generation results, and successful completion of the training program during your tenure as a Technical Sales Executive.
+
+**Training \\& Service Commitment**
+
+* Candidates will undergo a 6\\-month Training/Probation period.
+* During the probation period, submission of original certificates is mandatory to participate in the hands\\-on training program designed to facilitate a smooth transition into the Software Developer role.
+* Submission of original 10th, 12th, Degree, and Provisional Certificates is mandatory from the date of joining until completion of the 11\\-month service commitment period.
+* Employees will be required to serve a minimum period of 11 months from the date of joining.
+* Training reimbursement terms are applicable as per company policy.
+
+**Job Details**
+
+* **Interview Type:** In\\-Person
+* **Job Location:** T. Nagar, Chennai
+* **Joining:** Immediate
+* **Office Hours:** 09:30 AM to 07:00 PM
+* Language: **Tamil \\& English.**
+* Weekly Off: **One Day Weekly Off / Rotational Off**
+* **HR Contact –** 730 570 9993\\.
+
+Pay: From ₹15,000\\.00 per month
+
+Application Question(s):
+
+* Are you available for immediate joining and willing to attend an in\\-person interview/work from our office in T. Nagar, Chennai?
+* Are you currently residing in Chennai? If yes, please mention your area/location. If no, please mention your current city.
+* Do you have any current backlogs/arrears?
+* Languages Known?
+* Are you willing to accept the 11\\-month service commitment and Training Reimbursement Agreement policy?
+* Are you willing to provide original certificates (10th, 12th, Degree, and Provisional) as per company policy?
+* What do you understand about the Technical Sales Executive role at SPIRO PRIME TECH?
+* Are you willing to start your career in a Technical Sales Executive role during the probation period and progress to a Software Developer role based on performance?
+* Are you confident in handling customer interactions, lead generation activities, and achieving performance targets in a Technical Sales Executive role?
+* How confident are you in your ability to perform effectively in a Technical Sales Executive role?
+
+Work Location: In person","","https://in.indeed.com/cmp/Spiro-Prime-Tech-Services","","","","","","","","","","","",""
+"in-4dcfc5811a2a4ea7","indeed","https://in.indeed.com/viewjob?jk=4dcfc5811a2a4ea7","http://in.indeed.com/job/frontend-developer-reactjs-nextjs-4dcfc5811a2a4ea7","Frontend Developer (React.js / Next.js)","Leaps and Bounds Digital Solutions LLP","DL, IN","2026-07-12","fulltime","","","","","",True,"","","","","**About the Role**
+
+We’re looking for a **serious frontend developer** who can build fast, scalable, and production\\-ready web applications using **React.js and Next.js**. This is not a “copy\\-paste from StackOverflow” role — you’re expected to understand how things work under the hood and write clean, maintainable code.
+
+**Key Responsibilities**
+
+* Develop and maintain web applications using **React.js and Next.js**
+* Build **pixel\\-perfect, responsive UI** from Figma/Adobe XD designs
+* Optimize applications for **performance, SEO, and scalability**
+* Implement **SSR, SSG, and API integrations** in Next.js
+* Write clean, reusable, and well\\-documented code
+* Collaborate with backend developers, designers, and product teams
+* Debug and fix issues across browsers and devices
+* Ensure best practices in **code quality, security, and performance**
+
+**Required Skills**
+
+* Strong proficiency in **JavaScript (ES6\\+)**
+* Solid experience with **React.js and Next.js (App Router / Pages Router)**
+* Good understanding of **HTML5, CSS3, Flexbox, Grid**
+* Experience with **REST APIs / GraphQL**
+* Knowledge of **state management** (Context API, Redux, Zustand, etc.)
+* Understanding of **SSR, SSG, ISR in Next.js**
+* Familiarity with **Git version control**
+* Experience with **responsive and cross\\-browser design**
+
+**Good to Have (Not Mandatory but Valuable)**
+
+* Experience with **TypeScript**
+* Familiarity with **Tailwind CSS / Styled Components**
+* Understanding of **Web Vitals \\& performance optimization**
+* Experience with **authentication (JWT, OAuth)**
+* Basic knowledge of **Node.js or backend workflows**
+* Exposure to **deployment (Vercel, AWS, etc.)**
+
+**What We Expect (Read Carefully)**
+
+* You don’t just “know React” — you understand **how rendering, hydration, and hooks actually work**
+* You can **debug without guessing**
+* You write code that others can read without hating you
+* You don’t rely blindly on AI — you use it smartly
+
+**What You’ll Get**
+
+* Work on **real\\-world production projects**
+* Fast\\-paced environment (no bureaucracy, no hand\\-holding)
+* Opportunity to grow into **senior/lead roles**
+* Competitive salary based on actual skill, not just years
+
+**How to Apply**
+
+Send:
+
+* Your **resume**
+* Links to **live projects or GitHub**
+* (Optional but powerful) A short explanation of a **complex problem you solved in React/Next**
+
+**Location:** Paschim Vihar, Delhi (Hybrid)
+
+**Experience:** 2–3 Years
+
+**Employment Type:** Full\\-time
+
+Pay: ₹240,000\\.00 \\- ₹360,000\\.00 per year
+
+Work Location: Hybrid remote in Subhash Nagar, Delhi, Delhi","","https://in.indeed.com/cmp/Leaps-and-Bounds-Digital-Solutions-LLP","","","","","","","","","","","",""
+"in-01adc96ec7e1d886","indeed","https://in.indeed.com/viewjob?jk=01adc96ec7e1d886","http://in.indeed.com/job/full-stack-developer-01adc96ec7e1d886","Full Stack Developer","","PB, IN","2026-07-12","fulltime","","","","","",False,"","","","","Job Title: Full Stack DeveloperLocation
+
+About Cynaps Edu
+
+Cynaps Edu is an EdTech organization committed to delivering industry\\-focused learning experiences through innovative technology, expert mentorship, and career\\-oriented programs. We are looking for a passionate Full Stack Developer to build scalable web applications and contribute to our growing technology ecosystem.
+
+Key Responsibilities
+
+* Design, develop, test, and maintain responsive web applications.
+* Build user\\-friendly front\\-end interfaces using modern frameworks.
+* Develop secure and scalable back\\-end services and APIs.
+* Integrate databases and third\\-party APIs.
+* Collaborate with UI/UX designers, product managers, and other developers.
+* Troubleshoot bugs, optimize application performance, and improve system reliability.
+* Write clean, maintainable, and well\\-documented code.
+* Participate in code reviews and follow best development practices.
+* Stay updated with emerging technologies and recommend improvements.
+
+Required SkillsFront\\-End
+
+* HTML5
+* CSS3
+* JavaScript (ES6\\+)
+* React.js, Angular, or Vue.js
+* Bootstrap or Tailwind CSS
+
+Back\\-End
+
+* Node.js / Express.js
+* Python (Django/Flask) or Java (Spring Boot) or PHP (Laravel) is a plus
+
+Database
+
+* MySQL
+* PostgreSQL
+* MongoDB
+
+Tools \\& Technologies
+
+* Git \\& GitHub
+* RESTful APIs
+* JSON
+* Postman
+* Docker (preferred)
+* Basic understanding of cloud platforms (AWS, Azure, or Google Cloud)
+
+Qualifications
+
+* Bachelor's degree in Computer Science, Information Technology, BCA, MCA, B.Tech, or a related field.
+* Strong understanding of data structures, algorithms, and object\\-oriented programming.
+* Knowledge of software development life cycle (SDLC).
+* Portfolio or GitHub projects demonstrating practical development skills.
+
+Preferred Qualifications
+
+* Experience deploying applications on cloud platforms.
+* Familiarity with CI/CD pipelines.
+* Understanding of authentication, authorization, and web security practices.
+* Experience working in Agile development environments.
+
+Soft Skills
+
+* Strong problem\\-solving abilities.
+* Excellent communication skills.
+* Team\\-oriented mindset.
+* Eagerness to learn and adapt to new technologies.
+* Ability to manage multiple tasks and meet deadlines.
+
+What We Offer
+
+* Competitive salary.
+* Learning and professional development opportunities.
+* Exposure to real\\-world projects.
+* Collaborative and innovative work environment.
+* Career growth within a fast\\-growing EdTech organization.
+
+Pay: ₹380,316\\.13 \\- ₹1,633,312\\.16 per year
+
+Benefits:
+
+* Provident Fund
+
+Work Location: In person","","https://in.indeed.comNone","","","","","","","","","","","",""
+"in-d2c94194c1817e4f","indeed","https://in.indeed.com/viewjob?jk=d2c94194c1817e4f","http://in.indeed.com/job/qa-automation-engineerfront-endback-end-d2c94194c1817e4f","QA Automation Engineer(Front end&Back end)","Rao IIT Academy","Remote, IN","2026-07-12","","","","","","",True,"","","","","**Must have Java, JavaScript,Selenium, Cypress, REST Assured\\-2 Years of experience**
+
+We are seeking a skilled and detail\\-oriented Software Development Engineer in Testing with hands\\-on experience in both frontend and backend testing. The ideal candidate will be responsible for designing, developing, and maintaining robust automated test suites that ensure the quality and reliability of our web applications and APIs.
+
+Design and implement automated test scripts for UI and API testing
+
+* Collaborate with developers and QA analysts to understand requirements and define test strategies
+* Maintain and enhance automation frameworks for scalability and reusability
+* Perform regression, integration, and performance testing across environments
+* Analyse test results, identify defects, and provide actionable feedback
+* Integrate automated tests into CI/CD pipelines
+* Proficient in Java, JavaScript
+* Skilled in Selenium, Cypress, REST Assured
+* Strong Git and CI/CD (Jenkins, GitHub Actions) knowledge
+* Strong experience with API testing (Postman, Rest Assured, Karate) and SQL for database validation
+* Familiar with performance testing tools like JMeter
+* Understanding of Agile, DevOps, and SDLC processes
+* Exposure to cloud platforms (AWS) is a plus
+* Capable of designing scalable, reusable test cases and frameworks
+* Experience with performance testing tools (e.g., JMeter, Gatling)
+* Familiarity with Agile/Scrum methodologies
+* Strong debugging, analytical thinking, and problem\\-solving skills
+* Effective communication and collaboration across cross\\-functional teams
+
+Job Type: Contractual / Temporary
+
+Contract length: 12 months
+
+Work Location: Remote
+
+Pay: ₹700,000\\.00 \\- ₹800,000\\.00 per year
+
+Work Location: Remote","","https://in.indeed.com/cmp/Rao-Iit-Academy-5","","","","","","","","","","","",""
+"in-970b207c1fd63a99","indeed","https://in.indeed.com/viewjob?jk=970b207c1fd63a99","https://jobs.smartrecruiters.com/Nagarro1/744000137305358-senior-staff-engineer-ai-full-stack-developer-","Senior Staff Engineer (AI Full-stack Developer)","Nagarro","MH, IN","2026-07-12","fulltime","","","","","",False,"","","","","**Company Description** **We're Nagarro.**
+
+
+We are a Digital Product Engineering company that is scaling in a big way! We build products, services, and experiences that inspire, excite, and delight. We work at a scale — across all devices and digital mediums, and our people exist everywhere in the world (18500\\+ experts across 40 countries, to be exact). Our work culture is dynamic and non\\-hierarchical. We are looking for great new colleagues. That is where you come in!
+
+ **Job Description** **Requirements**
+
+* Experience : 7\\.5\\+ years
+* Relevant experience in software development, AI/ML engineering, or applied AI with hands\\-on experience building production\\-grade AI applications.
+* Strong expertise in React for developing modern, responsive, and interactive web applications.
+* Proficiency in Java and/or Python with hands\\-on experience building backend services, REST APIs, and AI\\-driven applications.
+* Experience working with LLM platforms such as OpenAI, Anthropic, Azure OpenAI, or similar foundation models.
+* Hands\\-on experience designing and implementing Retrieval\\-Augmented Generation (RAG) pipelines, including embeddings, vector databases, chunking strategies, retrieval optimization, and grounding techniques.
+* Experience with LLM orchestration frameworks such as LangChain, LlamaIndex, LangGraph, Haystack, or equivalent.
+* Strong knowledge of prompt engineering, structured outputs, function calling, tool integration, and agentic AI workflows.
+* Experience developing AI services using FastAPI, Flask, or similar backend frameworks.
+* Knowledge of HTML, CSS, JavaScript, asynchronous programming, testing frameworks, and API development.
+* Experience with LLM evaluation frameworks such as RAGAS, DeepEval, Promptfoo, LangSmith, or equivalent.
+* Familiarity with Git, CI/CD pipelines, Docker, Linux, and software deployment practices.
+* Working knowledge of at least one cloud platform such as Azure, AWS, or GCP.
+* Basic understanding of infrastructure security concepts, including vulnerabilities, IAM, logging, access controls, and cloud security best practices.
+* Understanding of responsible AI principles, including prompt injection prevention, data privacy, hallucination mitigation, output validation, and content filtering.
+* Familiarity with SIEM platforms, security monitoring tools, Infrastructure as Code (Terraform or Bicep), and vulnerability management concepts is an advantage.
+* Strong analytical, troubleshooting, communication, and problem\\-solving skills with the ability to work collaboratively in cross\\-functional teams.
+* Relevant cloud, AI, or security certifications are an added advantage.
+
+**Responsibilities**
+
+* Design, develop, and deploy AI\\-powered applications and intelligent assistants using Large Language Models (LLMs) to automate security and enterprise workflows.
+* Build scalable React\\-based user interfaces and dashboards for AI\\-driven applications and enterprise automation solutions.
+* Develop backend services, REST APIs, and orchestration layers using Java and/or Python to support AI capabilities.
+* Design and implement end\\-to\\-end Retrieval\\-Augmented Generation (RAG) pipelines, including document ingestion, embeddings, vector storage, retrieval optimization, and contextual response generation.
+* Integrate enterprise AI solutions with LLM providers such as OpenAI, Anthropic, Azure OpenAI, and other commercial or open\\-source models.
+* Develop prompt templates, system prompts, structured outputs, and agentic workflows to improve AI accuracy and user experience.
+* Build AI microservices and APIs that integrate with enterprise applications, security tools, monitoring platforms, ticketing systems, and operational workflows.
+* Implement evaluation frameworks, regression testing, and performance monitoring to continuously improve model quality, latency, reliability, and operational efficiency.
+* Apply responsible AI practices by implementing security controls, prompt injection protection, PII masking, access controls, audit logging, and output validation.
+* Automate AI operational tasks including data preparation, embedding refresh, model evaluation, health monitoring, and deployment processes.
+* Collaborate with engineering, DevOps, infrastructure, security, and business teams to design and deliver scalable AI\\-powered solutions.
+* Participate in code reviews, testing, debugging, documentation, and production support activities to ensure high\\-quality software delivery.
+* Continuously evaluate emerging AI technologies, frameworks, and best practices to enhance enterprise AI capabilities and accelerate innovation.
+* Ensure AI applications are scalable, secure, maintainable, and aligned with enterprise architecture, governance, and compliance standards.
+
+  
+
+**Qualifications**  
+
+Bachelor’s or master’s degree in computer science, Information Technology, or a related field.","","https://in.indeed.com/cmp/Nagarro","https://d2q79iu7y748jz.cloudfront.net/s/_squarelogo/256x256/b06e4ef63fcccb694fe0a10b53046a22","http://www.nagarro.com/","San Jose, California, United States","","","","","","","","",""
+"in-363ef2ad48da5ba5","indeed","https://in.indeed.com/viewjob?jk=363ef2ad48da5ba5","http://in.indeed.com/job/automation-engineer-363ef2ad48da5ba5","Automation Engineer","EDUQUEST","HR, IN","2026-07-12","fulltime","","","","","",False,"","","","","We are seeking a highly motivated AI Agent Developer to design, develop, and deploy intelligent AI agents that automate business processes, enhance productivity, and deliver innovative user experiences. The ideal candidate should have experience working with Large Language Models (LLMs), AI automation platforms, APIs, workflow orchestration tools, and modern AI development frameworks.
+
+Key ResponsibilitiesAI Agent Development
+
+* Design, build, and deploy AI agents for business, education, customer service, and operational use cases.
+* Develop autonomous and semi\\-autonomous agent workflows using LLMs and Agentic AI frameworks.
+* Create multi\\-step reasoning, task execution, and decision\\-making systems powered by AI.
+
+Generative AI \\& LLM Integration
+
+* Integrate OpenAI, Anthropic, Google Gemini, and other LLM APIs into applications.
+* Develop prompt engineering strategies and optimize AI performance.
+* Build Retrieval\\-Augmented Generation (RAG) systems using internal and external knowledge bases.
+* Fine\\-tune and evaluate AI outputs for accuracy, reliability, and user experience.
+
+Workflow Automation
+
+* Create AI\\-powered automation workflows connecting multiple applications and services.
+* Integrate AI agents with CRMs, learning management systems, productivity tools, databases, and enterprise software.
+* Develop automated document processing, data extraction, reporting, and communication workflows.
+
+Software Development \\& Integration
+
+* Develop APIs and backend services to support AI applications.
+* Integrate AI agents with websites, chat platforms, mobile applications, and internal systems.
+* Implement secure authentication, data handling, and monitoring processes.
+
+Testing \\& Optimization
+
+* Monitor agent performance and continuously improve reliability.
+* Troubleshoot AI workflows and optimize response quality.
+* Conduct testing, validation, and performance benchmarking of AI systems.
+
+Research \\& Innovation
+
+* Stay updated with advancements in Agentic AI, Generative AI, LLMs, MCP, RAG, vector databases, and AI automation tools.
+* Evaluate emerging AI technologies and recommend adoption where appropriate.
+
+Required SkillsTechnical Skills
+
+* Strong understanding of Generative AI and Large Language Models (LLMs).
+* Experience with Python and AI development frameworks.
+* Knowledge of AI agent frameworks such as LangChain, LangGraph, CrewAI, AutoGen, PydanticAI, or similar.
+* Experience with Retrieval\\-Augmented Generation (RAG) systems.
+* Understanding of vector databases such as Pinecone, Weaviate, Chroma, or FAISS.
+* Experience integrating APIs and third\\-party services.
+* Familiarity with cloud platforms and deployment environments.
+* Knowledge of MCP (Model Context Protocol) and AI tool integrations is desirable.
+
+AI \\& Automation Tools
+
+* OpenAI, Anthropic Claude, Google Gemini, Azure OpenAI, or equivalent platforms.
+* Make.com, Zapier, n8n, or workflow automation tools.
+* Experience building AI chatbots, assistants, and autonomous agents.
+
+Soft Skills
+
+* Strong problem\\-solving and analytical abilities.
+* Excellent communication and documentation skills.
+* Ability to work independently and manage multiple projects.
+* Continuous learning mindset and interest in emerging technologies.
+
+Preferred Qualifications
+
+* Bachelor's or Master's degree in Computer Science, Artificial Intelligence, Data Science, Information Technology, or related field.
+* 1–5 years of experience in software development, AI engineering, or automation.
+* Portfolio of AI agents, chatbots, automation projects, or GenAI applications.
+
+Key Performance Indicators (KPIs)
+
+* Successful deployment of AI agents and automation solutions.
+* Reduction in manual effort through AI\\-driven automation.
+* Reliability, accuracy, and efficiency of deployed AI systems.
+* User adoption and satisfaction with AI solutions.
+* Innovation and implementation of new AI capabilities.
+
+Pay: ₹15,000\\.00 \\- ₹30,000\\.00 per month
+
+Work Location: In person","","https://in.indeed.com/cmp/Eduquest","","http://www.eduquest.org.in","Bengaluru","11 to 50","","","","","","","",""
+"in-ee0e218e3dd2e222","indeed","https://in.indeed.com/viewjob?jk=ee0e218e3dd2e222","https://jobs.natwestgroup.com/jobs/17982177-software-developer-java-avp","Software Developer, Java, AVP","NatWest Group","HR, IN","2026-07-12","fulltime","","","","","",False,"","","","","Closing date for applications: 13/07/2026
+
+
+
+Location Gurugram, India
+
+
+Job typePermanent \\| Contract typeFull Time
+
+
+\\#R\\-00281682
+
+  
+
+
+
+**Join our digital revolution in NatWest Digital X**
+----------------------------------------------------
+
+
+In everything we do, we work to one aim. To make digital experiences which are effortless and secure.
+
+
+So we organise ourselves around three principles: engineer, protect, and operate. We engineer simple solutions, we protect our customers, and we operate smarter.
+
+
+**Job description**
+-------------------
+
+
+This role is based in India and as such all normal working days must be carried out in India.
+
+
+Join us as a Software Engineer
+
+
+* This is an opportunity for a driven Software Engineer to take on an exciting new career challenge
+* Day\\-to\\-day, you'll build a wide network of stakeholders of varying levels of seniority
+* It’s a chance to hone your existing technical skills and advance your career
+* We're offering this role at associate vice president level
+
+**What you'll do**
+------------------
+
+
+In your new role, you’ll engineer and maintain innovative, customer centric, high performance, secure and robust solutions. You’ll be working within a feature team and using your extensive experience to engineer software, scripts and tools that are often complex, as well as liaising with other engineers, architects and business analysts across the platform.
+
+
+You’ll also be:
+
+
+* Producing complex and critical software rapidly and of high quality which adds value to the business
+* Working in permanent teams who are responsible for the full life cycle, from initial development, through enhancement and maintenance to replacement or decommissioning
+* Collaborating to optimise our software engineering capability
+* Designing, producing, testing and implementing our working code
+* Working across the life cycle, from requirements analysis and design, through coding to testing, deployment and operations
+
+**The skills you'll need**
+--------------------------
+
+
+You’ll need a background in software engineering, software design, architecture, and an understanding of how your area of expertise supports our customers.
+
+
+You’ll also need:
+
+
+* Experience of working with development and testing tools, bug tracking tools and wikis
+* Eight to twelve years of hands\\-on experience in Java, Spring Boot, Microservices architecture, and Cloud technologies
+* Experience in multiple programming languages or low code toolsets
+* Experience of DevOps, Testing and Agile methodology and associated toolsets
+* A background in solving highly complex, analytical and numerical problems
+* Experience of implementing programming best practice, especially around scalability, automation, virtualisation, optimisation, availability and performance
+
+**Welcome to our Gurugram hub**
+-------------------------------
+
+
+Spanning 437,000 sq. ft., our campus in Gurugram features two state\\-of\\-the\\-art towers – 1A and 2A at the Candor TechSpace in Sector 21\\.
+
+
+### **Key facts:**
+
+
+* Surrounded by 28 acres
+* Space for 4,100 colleagues
+* Opened in 2010
+### **Our tech stack**
+
+
+Here’s just some of the technologies we use.
+
+
+### **Front end**
+
+
+* JavaScript
+* ReactJS
+* AngularJS
+### **Back end**
+
+
+* Python
+* Java
+* Microsoft Dynamics
+### **DevOps**
+
+
+* AWS
+* GitLab
+* Google Cloud Platform
+### **Data**
+
+
+* Kafka
+* Hadoop
+* PostgreSQL
+* Snowflake","","https://in.indeed.com/cmp/Natwest-Group","https://d2q79iu7y748jz.cloudfront.net/s/_squarelogo/256x256/f2407e68ab1b6fa5bae5fd5074cf5d57","https://www.natwestgroup.com","Edinburgh, Scotland","10,000+","more than $10B (USD)","We champion potential.","","","","","",""
+"in-35eeb724da089c8c","indeed","https://in.indeed.com/viewjob?jk=35eeb724da089c8c","https://unikwork.com/career-details/eyJpdiI6IlpOWHFxYlJPd0JZQnRrcGhrdVJpSGc9PSIsInZhbHVlIjoidXUrK1FxTnkvVzFDaGxkUUtOdGxBUT09IiwibWFjIjoiZTA3NTcxYjQwY2E5MDA1M2E4YTg5ZDA4ZWIyY2E4ZTlkNWFjNDgzNzdhNTZlZGE4MmFkMTFhNGIxMGVjZDRkOSIsInRhZyI6IiJ9","Node.js Developer Intern","Unikwork","GJ, IN","2026-07-12","fulltime","","","","","",False,"","","","","#### **Qualification**
+
+
+BE (CSE/IT)/ B.TECH(CSE/IT)/ MCA/ ME(CSE/IT)/ M.SC/ M.TECH(CSE/IT)
+
+
+#### **Location**
+
+
+Surat
+
+
+#### **Salary range**
+
+
+#### **Experience/Seniority level**
+
+
+Fresher
+
+
+#### **Job Time**
+
+
+Full Time
+
+
+#### **Requirements / Your Skills**
+
+
+Design, build and implement applications based on specification
+
+
+Working with different stackholders to ensure successful software release
+
+
+Good understanding of object\\-oriented programming, algorithms, and data structures","","https://in.indeed.com/cmp/Unikwork","https://d2q79iu7y748jz.cloudfront.net/s/_squarelogo/256x256/52e879c0416762fb3c3da41d3b8efcc7","https://www.unikwork.com","4006-4009
+Siver business point
+Utran 
+Surat ","51 to 200","$1M to $5M (USD)","","","","","","",""
+"in-0addfa0b345fbc3b","indeed","https://in.indeed.com/viewjob?jk=0addfa0b345fbc3b","https://unikwork.com/career-details/eyJpdiI6ImYxak9MN2xBQ1J6TW1ibGlsdjIzTkE9PSIsInZhbHVlIjoiNFJIZE5MT05FSHRxNDNWWGNNbFZBUT09IiwibWFjIjoiZDk2N2E4YTM3MTBlMGVmMTZlN2ZiODQxMTZmZGNlYWNjMjM2MmFmODkxODE0OTE4ZmI0ODUyMWZlYTg4MDQxMiIsInRhZyI6IiJ9","iOS Developer","Unikwork","GJ, IN","2026-07-12","fulltime","","","","","",False,"","","","","#### **Qualification**
+
+
+BE (CSE/IT)/ B.TECH(CSE/IT)/ MCA/ ME(CSE/IT)/ M.SC/ M.TECH(CSE/IT)
+
+
+#### **Location**
+
+
+Surat
+
+
+#### **Salary range**
+
+
+3,00,000 \\- 4,20,000 LPA
+
+
+#### **Experience/Seniority level**
+
+
+1\\+ years
+
+
+#### **Job Time**
+
+
+Full Time
+
+
+#### **Requirements / Your Skills**
+
+
+Assist in App Development: Work alongside senior developers to build, test, and maintain iOS applications.
+
+
+Code and Debug: Write clean, efficient, and maintainable code, and troubleshoot issues as they arise.
+
+
+Collaborate: Participate in team meetings, contribute ideas, and collaborate with cross\\-functional teams to ensure project success.
+
+
+Learn and Adapt: Stay up\\-to\\-date with the latest iOS trends, tools, and technologies, and apply them to ongoing projects.
+
+
+Document: Maintain accurate documentation for development processes and project updates.
+
+
+Technical Skills: Basic understanding of Swift and Objective\\-C, and familiarity with Xcode and iOS development frameworks.
+
+
+Communication: Good verbal and written communication skills, with the ability to work effectively in a team environment.","","https://in.indeed.com/cmp/Unikwork","https://d2q79iu7y748jz.cloudfront.net/s/_squarelogo/256x256/52e879c0416762fb3c3da41d3b8efcc7","https://www.unikwork.com","4006-4009
+Siver business point
+Utran 
+Surat ","51 to 200","$1M to $5M (USD)","","","","","","",""
+"in-4af477e1e7dd61c7","indeed","https://in.indeed.com/viewjob?jk=4af477e1e7dd61c7","https://unikwork.com/career-details/eyJpdiI6IjNJN2VMNFR6WHlIaGlkNUdxQWpEWnc9PSIsInZhbHVlIjoiMjUzWG9VVHFORjBTRUJiVm90RVhzZz09IiwibWFjIjoiMWYwN2E0YmU1OGZkOThmMjBkODUzNWFhNjAxNjIxYTA0N2Y3ZDczZWQ1MTNmY2Q5OWE4ZGYxYjcwZTZhMDdmNiIsInRhZyI6IiJ9","Android Developer Interns","Unikwork","GJ, IN","2026-07-12","fulltime","","","","","",False,"","","","","#### **Qualification**
+
+
+BE (CSE/IT)/ B.TECH(CSE/IT)/ MCA/ ME(CSE/IT)/ M.SC/ M.TECH(CSE/IT)
+
+
+#### **Location**
+
+
+Surat
+
+
+#### **Salary range**
+
+
+#### **Experience/Seniority level**
+
+
+Fresher
+
+
+#### **Job Time**
+
+
+Full Time
+
+
+#### **Requirements / Your Skills**
+
+
+Assist in App Development: Collaborate with the development team to build, test, and maintain Android applications using Java or Kotlin.
+
+
+Code and Debug: Write clean, efficient, and well\\-documented code, and troubleshoot issues to ensure optimal performance of applications.
+
+
+Collaborate: Engage in team discussions, contribute ideas, and work with designers and other developers to deliver high\\-quality solutions.
+
+
+Learn and Implement: Stay updated with the latest Android development trends, tools, and best practices, and apply this knowledge to your projects.
+
+
+Document: Maintain accurate documentation for development processes and project updates.
+
+
+Technical Skills: Basic understanding of Android development using Java or Kotlin. Familiarity with Android Studio and related tools is a plus.
+
+
+Problem\\-Solving Skills: Strong analytical abilities with attention to detail and the capability to resolve issues effectively.
+
+
+Communication: Good verbal and written communication skills, with the ability to collaborate effectively in a team environment.","","https://in.indeed.com/cmp/Unikwork","https://d2q79iu7y748jz.cloudfront.net/s/_squarelogo/256x256/52e879c0416762fb3c3da41d3b8efcc7","https://www.unikwork.com","4006-4009
+Siver business point
+Utran 
+Surat ","51 to 200","$1M to $5M (USD)","","","","","","",""
+"in-3e62d0167be1dc41","indeed","https://in.indeed.com/viewjob?jk=3e62d0167be1dc41","https://unikwork.com/career-details/eyJpdiI6IkgvZ0N6ZWpzTVh5ZXpPNzAvbmd1dGc9PSIsInZhbHVlIjoiRUhQQVlhTGRvT3FybU9LUFlUNC9kUT09IiwibWFjIjoiYzhmNTRmMTg0MTQwM2I5MTc2ZTJmN2ZjYTU0YWZiOGRkMWM1ZjhhNDgwZTgxODQzMTkyZjlmNzlkYjFjYzU1ZSIsInRhZyI6IiJ9","Android Developer","Unikwork","GJ, IN","2026-07-12","fulltime","","","","","",False,"","","","","#### **Qualification**
+
+
+BE (CSE/IT)/ B.TECH(CSE/IT)/ MCA/ME(CSE/IT)/ M.SC/ M.TECh(CSE/IT)
+
+
+#### **Location**
+
+
+Surat
+
+
+#### **Salary range**
+
+
+2,88,000 LPA \\- 3,25,000 LPA
+
+
+#### **Experience/Seniority level**
+
+
+1\\+ years
+
+
+#### **Job Time**
+
+
+Full\\-time
+
+
+#### **Requirements / Your Skills**
+
+
+Understanding of using Java or Kotlin
+
+
+Designing and Implementing Applications
+
+
+Independently write quality code that is simple, reliable, and scalable
+
+
+Exposure to latest mobile software architectures
+
+
+Work on bug fixing and improving application performance
+
+
+Ability to use the Android Studio, including the Android SDK, with ease","","https://in.indeed.com/cmp/Unikwork","https://d2q79iu7y748jz.cloudfront.net/s/_squarelogo/256x256/52e879c0416762fb3c3da41d3b8efcc7","https://www.unikwork.com","4006-4009
+Siver business point
+Utran 
+Surat ","51 to 200","$1M to $5M (USD)","","","","","","",""
+"in-c3232a68c94105a8","indeed","https://in.indeed.com/viewjob?jk=c3232a68c94105a8","https://unikwork.com/career-details/eyJpdiI6IlBzYkpFcHp6eUVJNUNIR2lZY3JjZHc9PSIsInZhbHVlIjoiWjdWQWUxUmI2YzhHa2RnZ2F5UVZsdz09IiwibWFjIjoiOTY0MjhmYzY0MzM4ZTg4N2E2NTMzMDYxMjEwYzIxNDczMDdiZjZhNGQxMDdmNjdiN2IzMGVjMjI2YjhiNDVjMyIsInRhZyI6IiJ9","iOS Developer Intern","Unikwork","GJ, IN","2026-07-12","fulltime","","","","","",False,"","","","","#### **Qualification**
+
+
+BE (CSE/IT)/ B.TECH(CSE/IT)/ MCA/ ME(CSE/IT)/ M.SC/ M.TECH(CSE/IT)
+
+
+#### **Location**
+
+
+Surat
+
+
+#### **Salary range**
+
+
+#### **Experience/Seniority level**
+
+
+Fresher
+
+
+#### **Job Time**
+
+
+Full Time
+
+
+#### **Requirements / Your Skills**
+
+
+Assist in App Development: Work alongside senior developers to build, test, and maintain iOS applications.
+
+
+Code and Debug: Write clean, efficient, and maintainable code, and troubleshoot issues as they arise.
+
+
+Collaborate: Participate in team meetings, contribute ideas, and collaborate with cross\\-functional teams to ensure project success.
+
+
+Learn and Adapt: Stay up\\-to\\-date with the latest iOS trends, tools, and technologies, and apply them to ongoing projects.
+
+
+Document: Maintain accurate documentation for development processes and project updates.
+
+
+Technical Skills: Basic understanding of Swift and Objective\\-C, and familiarity with Xcode and iOS development frameworks.
+
+
+Communication: Good verbal and written communication skills, with the ability to work effectively in a team environment.","","https://in.indeed.com/cmp/Unikwork","https://d2q79iu7y748jz.cloudfront.net/s/_squarelogo/256x256/52e879c0416762fb3c3da41d3b8efcc7","https://www.unikwork.com","4006-4009
+Siver business point
+Utran 
+Surat ","51 to 200","$1M to $5M (USD)","","","","","","",""
+"in-2abc7093640995a0","indeed","https://in.indeed.com/viewjob?jk=2abc7093640995a0","http://in.indeed.com/job/mern-stack-developer-intern-2abc7093640995a0","MERN Stack Developer Intern","Tamizha Media Pvt Ltd","TN, IN","2026-07-12","fulltime, internship","","","","","",False,"","","","","**MERN Stack Developer Intern**
+
+We are looking for a passionate **MERN Stack Developer Intern** to join our team. This internship offers a great opportunity to gain **hands\\-on experience in full\\-stack development** using the **MERN stack (MongoDB, Express.js, React.js, Node.js)** and work on exciting real\\-world projects.
+
+**Key Responsibilities:**
+
+* Assist in developing and maintaining web applications using the **MERN Stack**
+* Write clean, efficient, and scalable code for both **frontend and backend**
+* Collaborate with design and development teams to build **user\\-friendly interfaces**
+* Test, debug, and optimize applications for better performance
+* Develop and integrate **RESTful APIs** with frontend components
+* Manage and work with **MongoDB databases**
+* Stay updated with the latest **full\\-stack development trends and technologies**
+
+**Required Skills:**
+
+* Basic knowledge of **MongoDB, Express.js, React.js, Node.js**
+* Understanding of **HTML, CSS, JavaScript**
+* Familiarity with **REST API development**
+* Knowledge of **Git version control**
+* Strong problem\\-solving and debugging skills
+* Understanding of **responsive design and cross\\-platform compatibility**
+* Willingness to learn new tools and technologies
+
+**Educational Qualification:**
+
+* Pursuing or completed **Computer Science / IT** or related degree
+
+**Benefits:**  
+✔ Hands\\-on experience in **MERN Stack development**  
+✔ Mentorship from experienced professionals  
+✔ Opportunity to work on **live projects**  
+✔ **Internship Certificate** upon completion  
+✔ Potential **Full\\-Time Job Opportunity**
+
+Job Types: Full\\-time, Fresher, Internship
+
+Pay: ₹15,000\\.00 \\- ₹25,000\\.00 per month
+
+Benefits:
+
+* Flexible schedule
+
+Work Location: In person","","https://in.indeed.com/cmp/Tamizha-Media-Pvt-Ltd","","","","","","","","","","","",""
+"in-66d28885f44aca28","indeed","https://in.indeed.com/viewjob?jk=66d28885f44aca28","http://in.indeed.com/job/python-developer-intern-66d28885f44aca28","Python Developer Intern","Tamizha Media Pvt Ltd","TN, IN","2026-07-12","fulltime, internship","","","","","",False,"","","","","We are looking for a Python Developer Intern to join our development team. The candidate will assist in building and maintaining Python\\-based applications and support ongoing development projects.
+
+**Responsibilities:**
+
+* Assist in developing Python applications
+* Write clean and efficient code
+* Support backend development tasks
+* Work with the team on software projects
+
+**Required Skills:**
+
+* Basic knowledge of Python
+* Understanding of APIs
+* Basic knowledge of databases
+* Problem\\-solving skills
+* Team collaboration
+
+**Preferred Skills:**
+
+* Django or Flask (basic knowledge)
+* Git / Version Control
+* Basic HTML, CSS, JavaScript
+
+Job Types: Full\\-time, Fresher, Internship
+
+Pay: ₹15,000\\.00 \\- ₹25,000\\.00 per month
+
+Benefits:
+
+* Flexible schedule
+
+Work Location: In person","","https://in.indeed.com/cmp/Tamizha-Media-Pvt-Ltd","","","","","","","","","","","",""
+"in-531af6614aa2167e","indeed","https://in.indeed.com/viewjob?jk=531af6614aa2167e","https://ats.rippling.com/rippling/jobs/f61f656f-20ec-4a1e-82bd-c5b236e49e4f","Senior Staff Software Engineer","Rippling","KA, IN","2026-07-12","","","","","","",False,"","","","","**About Rippling**
+------------------
+
+  
+
+Rippling gives businesses one place to run HR, IT, and Finance. It brings together all of the workforce systems that are normally scattered across a company, like payroll, expenses, benefits, and computers. For the first time ever, you can manage and automate every part of the employee lifecycle in a single system.  
+
+Take onboarding, for example. With Rippling, you can hire a new employee anywhere in the world and set up their payroll, corporate card, computer, benefits, and even third\\-party apps like Slack and Microsoft 365 \\- all within 90 seconds.  
+
+Based in San Francisco, CA, Rippling has raised $1\\.85B\\+ from the world’s top investors \\- including Kleiner Perkins, Founders Fund, Sequoia, Greenoaks, Bedrock, GIC, Elad Gil and Goldman Sachs and was named one of America's best startup employers by Forbes. *We prioritize candidate safety. Please be aware that all official communication will only be sent from @rippling.com addresses.***About the Role**
+------------------
+
+
+We are looking for a **Senior Staff Software Engineer** with **15\\+ years of software engineering experience** to help lead the design and development of large\\-scale, mission\\-critical systems.
+This is a senior individual contributor role for someone who can operate at high technical depth, influence across teams, and drive complex engineering initiatives from early problem definition through architecture, execution, launch, and long\\-term operational ownership.
+The ideal candidate is not only a strong architect, but also someone who remains close to code, understands implementation trade\\-offs, mentors other engineers, and raises the engineering bar across the organization.**What You Will Do**
+--------------------
+
+* Own broad, ambiguous, and high\\-impact technical charters across multiple teams or systems.
+* Design and build scalable, reliable, and maintainable distributed systems.
+* Lead architecture and technical strategy for critical platform, backend, infrastructure, or product engineering initiatives.
+* Break down complex technical problems into clear execution plans.
+* Partner closely with Product, Engineering, Infrastructure, Security, Data, and business stakeholders.
+* Make high\\-quality technical decisions around scale, reliability, performance, latency, availability, observability, and long\\-term maintainability.
+* Stay meaningfully hands\\-on through design reviews, code reviews, debugging, prototyping, and implementation\\-level decision\\-making.
+* Identify technical risks early and drive alignment on durable solutions.
+* Mentor Staff, Senior, and mid\\-level engineers and help grow technical leadership within the team.
+* Establish engineering best practices, reusable patterns, and high standards for design, coding, testing, and operations.
+* Influence technical direction without relying on formal authority.
+* Improve system quality through better architecture, operational maturity, incident learnings, and platform\\-level thinking.
+
+**What You Need to Have**
+-------------------------
+
+* **15\\+ years of software engineering experience**, preferably in backend, platform, infrastructure, distributed systems, product engineering, or systems engineering.
+* Proven experience operating at **Senior Staff / Principal / Staff\\+ technical scope**.
+* Deep hands\\-on engineering foundation with strong coding, debugging, design, and system\\-building experience.
+* Strong programming ability in one or more backend/general\\-purpose languages such as **Python, Java, Go, C\\+\\+, Scala, Kotlin, or C\\#**.
+* Experience building and operating large\\-scale production systems.
+* Strong architecture and system design depth across distributed systems, APIs, databases, data modeling, concurrency, reliability, observability, and performance.
+* Ability to own ambiguous, cross\\-functional, multi\\-team technical initiatives end\\-to\\-end.
+* Strong technical judgment and ability to make trade\\-offs across speed, quality, scale, reliability, cost, and long\\-term maintainability.
+* Ability to influence senior engineers, product leaders, and cross\\-functional stakeholders without formal authority.
+* Strong mentorship mindset with a track record of raising the technical bar for other engineers.
+* Comfortable operating in fast\\-paced, high\\-ambiguity environments.
+* Strong communication skills with the ability to explain complex technical decisions clearly to both technical and non\\-technical audiences.
+
+**What Would Be Nice To Have**
+------------------------------
+
+* Experience in high\\-growth, hyper\\-growth, or product\\-led technology companies.
+* Experience building platforms or systems used by multiple internal teams or external customers.
+* Experience with cloud infrastructure, developer platforms, workflow engines, data platforms, or internal tooling.
+* Exposure to AI/ML infrastructure, LLM systems, automation platforms, evaluation frameworks, or data\\-intensive systems.
+* Experience with reliability engineering, incident management, observability, performance tuning, and operational excellence.
+* Experience with security, compliance, permissions, auditability, or enterprise\\-grade systems.
+* Prior experience in SaaS, fintech, HR tech, payroll, benefits, compliance, IT, data platforms, or workflow\\-heavy domains.
+* Ability to operate as a “builder\\-leader” — someone who can define direction, align stakeholders, and still stay close to execution.","","https://in.indeed.com/cmp/Rippling","","","n/a","1","","","","","","","",""
+"in-7657cea6070c8f0a","indeed","https://in.indeed.com/viewjob?jk=7657cea6070c8f0a","http://in.indeed.com/job/senior-software-web-developer-7657cea6070c8f0a","Senior Software & Web Developer","Femi Nayan LLP","TN, IN","2026-07-12","fulltime","","","","","",False,"","","","","Experience: 4\\+ Years
+
+We are seeking an experienced Senior Software \\& Web Developer to design, develop, and maintain the company's websites, web applications, software solutions, and internal business systems. The ideal candidate should be capable of delivering scalable, secure, and high\\-quality digital solutions while collaborating effectively with cross\\-functional teams.
+
+Key Responsibilities:
+
+\\- Design, develop, and maintain company websites, web applications, and software solutions.
+
+\\- Develop and enhance internal business applications based on organizational requirements.
+
+\\- Collaborate with UI/UX designers to deliver user\\-friendly and responsive applications.
+
+\\- Ensure software quality, security, performance, and reliability.
+
+\\- Identify and resolve technical issues through effective troubleshooting.
+
+\\- Maintain technical documentation and support system improvements.
+
+\\- Work closely with internal teams to understand business needs and implement effective solutions.
+
+\\- Stay updated with industry trends and recommend improvements where applicable.
+
+Requirements:
+
+\\- Bachelor's degree in Computer Science, Information Technology, or a related field.
+
+\\- Minimum 4\\+ years of experience in software and web application development.
+
+\\- Strong understanding of software development life cycle and application architecture.
+
+\\- Knowledge of UI/UX principles and the ability to work collaboratively with design teams.
+
+\\- Good analytical, problem\\-solving, and communication skills.
+
+\\- Ability to manage multiple development projects and meet deadlines.
+
+Work Location: In person","","https://in.indeed.com/cmp/Femi-Nayan-LLP","","","","","","","","","","","",""
+"in-e58e4dd213ca1aa5","indeed","https://in.indeed.com/viewjob?jk=e58e4dd213ca1aa5","http://in.indeed.com/job/rexx-developer-e58e4dd213ca1aa5","REXX Developer","My Desk","MH, IN","2026-07-12","fulltime","","","","","",True,"","","","","**Job Title: REXX Developer (z/OS)**
+
+**Experience:** 5\\+ Years
+
+**Location:** Pune, Hyderabad, Bengaluru and Chennai
+
+Remote (US Timing) \\- IST 6\\.30 pm to 2 pm
+
+**Job Summary**
+
+We are looking for an experienced **REXX Developer** with a minimum of **5 years of hands\\-on experience** in developing and maintaining REXX applications in IBM Mainframe environments. The ideal candidate should have strong expertise in **Broadcom OPS/MVS automation rules**, **z/OS**, **DB2**, and **SQL**.
+
+**Key Responsibilities**
+
+* Develop, enhance, and maintain applications using **REXX** on IBM Mainframe.
+* Design and support **Broadcom OPS/MVS automation rules** for system automation and monitoring.
+* Work with **z/OS** system components and troubleshoot production issues.
+* Develop and optimize **DB2 SQL** queries, stored procedures, and database objects.
+* Analyze business requirements and provide technical solutions.
+* Perform code reviews, testing, debugging, and performance tuning.
+* Collaborate with infrastructure and application teams to ensure system stability.
+* Prepare technical documentation and support production deployments.
+
+**Preferred Skills**
+
+* Experience with **JCL, TSO/ISPF, SDSF, and IBM Utilities**.
+* Knowledge of Mainframe scheduling tools such as **CA\\-7** or **Control\\-M**.
+* Familiarity with Mainframe source code management tools (e.g., **Endevor** or **Changeman**).
+* Experience working in Agile environments.
+
+**Required Skills**
+
+* Minimum **5 years of experience** in **REXX programming**.
+* Strong knowledge of **Broadcom OPS/MVS** rule development and automation.
+* Good understanding of **IBM z/OS** operating system.
+* Hands\\-on experience with **DB2** database development.
+* Strong proficiency in **SQL**.
+* Experience in debugging and resolving production issues in Mainframe environments.
+* Good analytical, problem\\-solving, and communication skills.
+
+Pay: ₹100,000\\.00 \\- ₹150,000\\.00 per month
+
+Application Question(s):
+
+* Where is your current location ? Pune , Bengaluru, Chennai or Hyderabad ?
+* Do you have Minimum 5 years of experience in REXX programming.?
+* Strong knowledge of Broadcom OPS/MVS rule development and automation.?
+* Hands\\-on experience with DB2 database development.? How many years ?
+* Good understanding of IBM z/OS operating system.?
+* Strong proficiency in SQL.? how many years
+* Experience in debugging and resolving production issues in Mainframe environments.?
+* Are you okay with US Timing? IST 6\\.30 PM TO 2 AM ?
+
+Work Location: In person","","https://in.indeed.com/cmp/My-Desk","","","","","","","","","","","",""
+"in-821c3a33305670c6","indeed","https://in.indeed.com/viewjob?jk=821c3a33305670c6","https://careers.wipro.com/job/DEVELOPER-L3/188339-en_US","DEVELOPER L3","Wipro","MH, IN","2026-07-11","","","","","","",False,"","","","","Job Description \\#body.unify div.unify\\-button\\-container .unify\\-apply\\-now: focus, \\#body.unify div.unify\\-button\\-container .unify\\-apply\\-\\#body.unify div.unify\\-button\\-container .unify\\-apply\\-now: focus, \\#body.unify div.unify\\-button\\-container .unify\\-apply\\-
+  
+**Job Title:** DEVELOPER L3
+  
+**City:** Pune
+  
+**State/Province:** Maharashtra
+  
+**Posting Start Date:** 7/11/26
+  
+**Wipro Limited (NYSE:** WIT, BSE: 507685, NSE: WIPRO) is a leading technology services and consulting company focused on building innovative solutions that address clients’ most complex digital transformation needs. Leveraging our holistic portfolio of capabilities in consulting, design, engineering, and operations, we help clients realize their boldest ambitions and build future\\-ready, sustainable businesses. With over 230,000 employees and business partners across 65 countries, we deliver on the promise of helping our customers, colleagues, and communities thrive in an ever\\-changing world. For additional information, visit us at www.wipro.com.
+  
+  
+
+**Job Description:**  
+
+Job Description
+  
+  
+
+Role Purpose
+  
+  
+
+The purpose of this role is to develop and test software modules based on client requirements and prepare project documentation while coordinating with cross\\-functional teams to ensure quality delivery.
+  
+  
+
+͏
+  
+  
+
+Areas of responsibility
+  
+  
+
+͏
+  
+  
+
+Gathering of requirements\\-Assist in conducting workshops and discussions with client stakeholders to gather business process requirements.
+  
+  
+
+Coding and Configuration\\-""Develop and deliver code for assigned modules, in alignment with client requirements ensuring proper integration with system components.
+  
+  
+
+͏
+  
+  
+
+Testing and Trial Runs\\-""Execute testing for assigned modules, validate functionality across required interactions, and participate in User Acceptance Testing (UAT) sessions.
+  
+  
+
+Implementation\\-Participate in implementation of software application and its integration with other systems to ensure stability.
+  
+  
+
+Maintain Documentation\\-Prepare detailed reports and documentation on project specifications, activities, and status, while presenting information using flowcharts, layouts, diagrams, code comments, and clear, well\\-structured code.
+  
+  
+
+͏
+  
+  
+
+Stakeholder Collaboration\\-Collaborate with cross functional teams to understand requirements, support development activities, check system compatibility, and ensure solutions meet expected standards.
+  
+  
+
+**Mandatory Skills:** ServiceNow \\- SaaS .
+  
+  
+
+**Experience:** 3\\-5 Years .
+  
+  
+
+Reinvent your world. We are building a modern Wipro. We are an end\\-to\\-end digital transformation partner with the boldest ambitions. To realize them, we need people inspired by reinvention. Of yourself, your career, and your skills. We want to see the constant evolution of our business and our industry. It has always been in our DNA \\- as the world around us changes, so do we. Join a business powered by purpose and a place that empowers you to design your own reinvention.
+  
+**\\#body.unify div.unify\\-button\\-container .unify\\-apply\\-now:** focus, \\#body.unify div.unify\\-button\\-container .unify\\-apply\\-\\#body.unify div.unify\\-button\\-container .unify\\-apply\\-now: focus, \\#body.unify div.unify\\-button\\-container .unify\\-apply\\-","","https://in.indeed.com/cmp/Wipro","https://d2q79iu7y748jz.cloudfront.net/s/_squarelogo/256x256/8b2cd63e1e41ba18596880aca0e609bc","http://www.wipro.com","Bengaluru","10,000+","$5B to $10B (USD)","","","","","","",""
+"in-ac70412348cafcfa","indeed","https://in.indeed.com/viewjob?jk=ac70412348cafcfa","https://careers.wipro.com/job/DEVELOPER-L3/188354-en_US","DEVELOPER L3","Wipro","MH, IN","2026-07-11","","","","","","",False,"","","","","Job Description \\#body.unify div.unify\\-button\\-container .unify\\-apply\\-now: focus, \\#body.unify div.unify\\-button\\-container .unify\\-apply\\-\\#body.unify div.unify\\-button\\-container .unify\\-apply\\-now: focus, \\#body.unify div.unify\\-button\\-container .unify\\-apply\\-
+  
+**Job Title:** DEVELOPER L3
+  
+**City:** Pune
+  
+**State/Province:** Maharashtra
+  
+**Posting Start Date:** 7/11/26
+  
+**Wipro Limited (NYSE:** WIT, BSE: 507685, NSE: WIPRO) is a leading technology services and consulting company focused on building innovative solutions that address clients’ most complex digital transformation needs. Leveraging our holistic portfolio of capabilities in consulting, design, engineering, and operations, we help clients realize their boldest ambitions and build future\\-ready, sustainable businesses. With over 230,000 employees and business partners across 65 countries, we deliver on the promise of helping our customers, colleagues, and communities thrive in an ever\\-changing world. For additional information, visit us at www.wipro.com.
+  
+  
+
+**Job Description:**  
+
+Job Description
+  
+  
+
+Role Purpose
+  
+  
+
+The purpose of this role is to develop and test software modules based on client requirements and prepare project documentation while coordinating with cross\\-functional teams to ensure quality delivery.
+  
+  
+
+͏
+  
+  
+
+Areas of responsibility
+  
+  
+
+͏
+  
+  
+
+Gathering of requirements\\-Assist in conducting workshops and discussions with client stakeholders to gather business process requirements.
+  
+  
+
+Coding and Configuration\\-""Develop and deliver code for assigned modules, in alignment with client requirements ensuring proper integration with system components.
+  
+  
+
+͏
+  
+  
+
+Testing and Trial Runs\\-""Execute testing for assigned modules, validate functionality across required interactions, and participate in User Acceptance Testing (UAT) sessions.
+  
+  
+
+Implementation\\-Participate in implementation of software application and its integration with other systems to ensure stability.
+  
+  
+
+Maintain Documentation\\-Prepare detailed reports and documentation on project specifications, activities, and status, while presenting information using flowcharts, layouts, diagrams, code comments, and clear, well\\-structured code.
+  
+  
+
+͏
+  
+  
+
+Stakeholder Collaboration\\-Collaborate with cross functional teams to understand requirements, support development activities, check system compatibility, and ensure solutions meet expected standards.
+  
+  
+
+**Mandatory Skills:** ServiceNow \\- SaaS .
+  
+  
+
+**Experience:** 3\\-5 Years .
+  
+  
+
+Reinvent your world. We are building a modern Wipro. We are an end\\-to\\-end digital transformation partner with the boldest ambitions. To realize them, we need people inspired by reinvention. Of yourself, your career, and your skills. We want to see the constant evolution of our business and our industry. It has always been in our DNA \\- as the world around us changes, so do we. Join a business powered by purpose and a place that empowers you to design your own reinvention.
+  
+**\\#body.unify div.unify\\-button\\-container .unify\\-apply\\-now:** focus, \\#body.unify div.unify\\-button\\-container .unify\\-apply\\-\\#body.unify div.unify\\-button\\-container .unify\\-apply\\-now: focus, \\#body.unify div.unify\\-button\\-container .unify\\-apply\\-","","https://in.indeed.com/cmp/Wipro","https://d2q79iu7y748jz.cloudfront.net/s/_squarelogo/256x256/8b2cd63e1e41ba18596880aca0e609bc","http://www.wipro.com","Bengaluru","10,000+","$5B to $10B (USD)","","","","","","",""
+"in-8a6a4ad619f100c5","indeed","https://in.indeed.com/viewjob?jk=8a6a4ad619f100c5","https://careers.wipro.com/job/DEVELOPER-L3/188385-en_US","DEVELOPER L3","Wipro","TS, IN","2026-07-11","","","","","","",False,"","","","","Job Description \\#body.unify div.unify\\-button\\-container .unify\\-apply\\-now: focus, \\#body.unify div.unify\\-button\\-container .unify\\-apply\\-\\#body.unify div.unify\\-button\\-container .unify\\-apply\\-now: focus, \\#body.unify div.unify\\-button\\-container .unify\\-apply\\-
+  
+**Job Title:** DEVELOPER L3
+  
+**City:** Hyderabad
+  
+**State/Province:** Telangana
+  
+**Posting Start Date:** 7/11/26
+  
+**Wipro Limited (NYSE:** WIT, BSE: 507685, NSE: WIPRO) is a leading technology services and consulting company focused on building innovative solutions that address clients’ most complex digital transformation needs. Leveraging our holistic portfolio of capabilities in consulting, design, engineering, and operations, we help clients realize their boldest ambitions and build future\\-ready, sustainable businesses. With over 230,000 employees and business partners across 65 countries, we deliver on the promise of helping our customers, colleagues, and communities thrive in an ever\\-changing world. For additional information, visit us at www.wipro.com.
+  
+  
+
+**Job Description:**  
+
+Job Description
+  
+  
+
+Role Purpose
+  
+  
+
+The purpose of this role is to develop and test software modules based on client requirements and prepare project documentation while coordinating with cross\\-functional teams to ensure quality delivery.
+  
+  
+
+͏
+  
+  
+
+Areas of responsibility
+  
+  
+
+͏
+  
+  
+
+Gathering of requirements\\-Assist in conducting workshops and discussions with client stakeholders to gather business process requirements.
+  
+  
+
+Coding and Configuration\\-""Develop and deliver code for assigned modules, in alignment with client requirements ensuring proper integration with system components.
+  
+  
+
+͏
+  
+  
+
+Testing and Trial Runs\\-""Execute testing for assigned modules, validate functionality across required interactions, and participate in User Acceptance Testing (UAT) sessions.
+  
+  
+
+Implementation\\-Participate in implementation of software application and its integration with other systems to ensure stability.
+  
+  
+
+Maintain Documentation\\-Prepare detailed reports and documentation on project specifications, activities, and status, while presenting information using flowcharts, layouts, diagrams, code comments, and clear, well\\-structured code.
+  
+  
+
+͏
+  
+  
+
+Stakeholder Collaboration\\-Collaborate with cross functional teams to understand requirements, support development activities, check system compatibility, and ensure solutions meet expected standards.
+  
+  
+
+**Mandatory Skills:** Data Engineering Full Stack .
+  
+  
+
+**Experience:** 3\\-5 Years .
+  
+  
+
+Reinvent your world. We are building a modern Wipro. We are an end\\-to\\-end digital transformation partner with the boldest ambitions. To realize them, we need people inspired by reinvention. Of yourself, your career, and your skills. We want to see the constant evolution of our business and our industry. It has always been in our DNA \\- as the world around us changes, so do we. Join a business powered by purpose and a place that empowers you to design your own reinvention.
+  
+**\\#body.unify div.unify\\-button\\-container .unify\\-apply\\-now:** focus, \\#body.unify div.unify\\-button\\-container .unify\\-apply\\-\\#body.unify div.unify\\-button\\-container .unify\\-apply\\-now: focus, \\#body.unify div.unify\\-button\\-container .unify\\-apply\\-","","https://in.indeed.com/cmp/Wipro","https://d2q79iu7y748jz.cloudfront.net/s/_squarelogo/256x256/8b2cd63e1e41ba18596880aca0e609bc","http://www.wipro.com","Bengaluru","10,000+","$5B to $10B (USD)","","","","","","",""
+"in-86c13f189653beaa","indeed","https://in.indeed.com/viewjob?jk=86c13f189653beaa","https://www.husky.co/en/careers/portal/details/?id=CfDJ8L4dFXU0cMFPhzBpWJtyC3kLMPepDK_R3f5RTow3h_X_Z8Gan9fhZ5bSzOBfu08sj0XO2yFxyVXnfKNce3c1m9LULPPiMHXgbtSPQvOUX2PCkYmaH1hdR2Ff0RZ_0WqlQA&title=DST+Business+Analyst+and+Business+Intelligence+Developer+-+Husky+(Guindy,Chennai)","DST Business Analyst and Business Intelligence Developer - Husky (Guindy,Chennai)","Husky Injection Molding","TN, IN","2026-07-10","fulltime","","","","","",False,"","","","","At Husky TechnologiesTM, our success is based on your success. Our ability to keep our customers in the lead is based on building the strongest team possible.
+
+
+
+Husky TechnologiesTM has a strong foundation built on innovation, close customer relationships and a unique culture and values. We are dedicated to offering our customers the highest quality products and services and are looking for people with the inspiration and talent to develop with us as we pursue our ambitious growth strategy. We are a leader in developing state\\-of\\-the\\-art technology and it is this technology base that uniquely positions us to serve customers who seek differentiation through solutions that provide speed, flexibility and maximum productivity. This capability is at the core of our mission and competitive strategy.
+
+
+
+Husky TechnologiesTM offers a wealth of opportunity for personal growth and development. Most importantly, Husky Technologies TM offers an opportunity to work with – and be challenged by – a team of great people. Our success is possible because of the creativity, intelligence and passion of our people around the world and their desire to lead change. At the same time, we are not afraid to expect a lot and strive for leadership in all of our key markets. We are a company taking on new challenges and for the right people this means exceptional career development opportunities, the chance to be part of a team that is the best in the world at what we do and the experience that comes from working in an environment that demands constant transformation and innovation.
+
+
+
+Husky TechnologiesTM is an exciting company with tremendous potential. We have a great team and great expectations. If you are attracted to bold goals, believe in uncompromising honesty, support mutual respect, care about environmental responsibility, have a passion for excellence and a desire to make a positive contribution – then we want you to join the Husky TechnologiesTM team!
+
+  
+
+
+**Job Description**
+
+
+
+The DST Business Analyst and Business Intelligence Developer for Husky will be responsible for designing, delivering, and maintaining the company’s enterprise business intelligence ecosystem, leveraging both internal and external data sources. This role will lead the development and support of enterprise\\-wide BI applications, data models, and analytics architecture. Working closely with senior business and IT stakeholders, the position will translate strategic data and information requirements into actionable solutions that enable data\\-driven decision making.
+
+
+
+The incumbent will address complex technical challenges, optimize performance across BI platforms, and define data elements that drive meaningful insights and measurable business value. The role will also establish testing standards, develop and deliver training programs to enhance user adoption, and promote self‑service analytics. Additionally, this position will define governance standards, policies, and procedures for BI tools and data structures, establish data quality metrics, and evaluate emerging technologies to support continuous improvement of Husky’s enterprise BI capabilities.
+
+
+**Key Responsibilities \\& Key Success Metrics**
+
+
+* Leading BI software development, deployment and maintenance
+* Perform Data Profiling and Data Analysis activities to understand data sources
+* Report curation, template definition and analytical data modeling
+* Work with cross\\-functional teams to gather and document reporting requirements
+* Translate business requirements into specifications that will be used to implement the required reports and dashboards, created from potentially multiple data sources
+* Identifies and resolves data reporting issues in a timely fashion, while looking for continuous improvement opportunities.
+* Build solutions that create value and resolve business problems
+* Provide technical guidance to designers and other stakeholders
+* Work effectively with members of Digital Solutions Team
+* Troubleshoots analytics tool problems and tunes for performance
+* Develops semantic layer and analytics query objects for end users
+* Translation of business questions and requirements into reports, views, and analytics query objects
+* Ensuring that quality standards are met
+* Supporting Master Data Management Strategy
+
+**Qualifications:**
+
+
+**Technical Skills \\& Experience**
+
+
+* Strong understanding of ERP and operational system data structures, with the ability to interpret, navigate, and optimize complex relational databases.
+* Advanced proficiency in writing high‑performance SQL queries against large‑scale, complex datasets, including optimization and troubleshooting.
+* Hands‑on experience in data visualization, dashboard design, and data storytelling, with the ability to translate analytical insights into clear, compelling, and actionable narratives.
+* Experience designing, debugging, and deploying BI solutions within an Azure DevOps (ADO) environment, including CI/CD practices, version control, and release management.
+* Proficiency with the Microsoft BI Stack, including:
+* Power BI (data modeling, DAX, visualization best practices, Power BI Service)
+* SQL Server Analysis Services (SSAS/AAS)—tabular model development, optimization, and deployment
+
+Experience working with Azure Data Platform services such as Azure Data Lake Storage (ADLS), Azure Data Factory (ADF), Azure Synapse Analytics, and Power BI Service.
+
+
+
+Knowledge of Databricks or Microsoft Fabric is considered a strong asset.
+
+
+**Business \\& Functional Knowledge**
+
+
+* Basic understanding of manufacturing and sales business processes, with the ability to translate operational requirements into analytical solutions.
+* Experience working in an international or distributed business environment, collaborating across regions and time zones.
+
+**Analytical \\& Problem\\-Solving Skills**
+
+
+* Strong analytical capabilities, with the ability to interpret requirements, profile data, validate output, and ensure accuracy across BI solutions.
+* Adept at diagnosing data inconsistencies, performance issues, and modeling challenges, proposing effective, scalable solutions.
+
+**Communication \\& Collaboration**
+
+
+* Excellent communication and presentation skills, capable of conveying technical concepts to business stakeholders in clear, understandable terms.
+* Ability to facilitate meetings, workshops, and design sessions, enabling effective collaboration and informed decision\\-making.
+* Strong interpersonal skills, with the ability to work collaboratively with cross‑functional teams, including Data Engineering, Business Analysts, and business partners.
+
+**Language Requirements**
+
+
+* Proficiency in English is required.
+* Knowledge of German or French is considered an asset.
+
+  
+
+Husky TechnologiesTM offers a competitive compensation and benefits package and excellent opportunities for growth and advancement. We are committed to equal employment opportunity and respect, value and welcome diversity in our workplace. Husky TechnologiesTM also values being a great place to work and strives to maintain a safe workplace. Accordingly, Husky TechnologiesTM conditions all offers of employment on satisfactory completion of background checks. No agency or telephone inquiries please.","Industrial Manufacturing","https://in.indeed.com/cmp/Husky-Injection-Molding","https://d2q79iu7y748jz.cloudfront.net/s/_squarelogo/256x256/cfe19a3dd23d9d563ed0094526981e5a","http://www.husky.co/EN-US/","Bolton, Ontario, Canada","1,001 to 5,000","","","","","","","",""
+"in-200f33d158d5dec4","indeed","https://in.indeed.com/viewjob?jk=200f33d158d5dec4","https://www.husky.co/en/careers/portal/details/?id=CfDJ8L4dFXU0cMFPhzBpWJtyC3kSElXopKdcy4WEcT75pSi6pNWNYfqN4-_GT_0NZm2pBSoh2V1OcH-Vxdh-U1Fv9ZInEkskeC0iT4kYnQlvJUo5rwqzWVMWvVyrTnCUdCTgiA&title=Control+Software+Designer-+Development+Engineering-Husky+(India)+Chennai,+Guindy","Control Software Designer- Development Engineering-Husky (India) Chennai, Guindy","Husky Injection Molding","TN, IN","2026-07-08","fulltime","","","","","",False,"","","","","At Husky TechnologiesTM, our success is based on your success. Our ability to keep our customers in the lead is based on building the strongest team possible.
+
+
+
+Husky TechnologiesTM has a strong foundation built on innovation, close customer relationships and a unique culture and values. We are dedicated to offering our customers the highest quality products and services and are looking for people with the inspiration and talent to develop with us as we pursue our ambitious growth strategy. We are a leader in developing state\\-of\\-the\\-art technology and it is this technology base that uniquely positions us to serve customers who seek differentiation through solutions that provide speed, flexibility and maximum productivity. This capability is at the core of our mission and competitive strategy.
+
+
+
+Husky TechnologiesTM offers a wealth of opportunity for personal growth and development. Most importantly, Husky Technologies TM offers an opportunity to work with – and be challenged by – a team of great people. Our success is possible because of the creativity, intelligence and passion of our people around the world and their desire to lead change. At the same time, we are not afraid to expect a lot and strive for leadership in all of our key markets. We are a company taking on new challenges and for the right people this means exceptional career development opportunities, the chance to be part of a team that is the best in the world at what we do and the experience that comes from working in an environment that demands constant transformation and innovation.
+
+
+
+Husky TechnologiesTM is an exciting company with tremendous potential. We have a great team and great expectations. If you are attracted to bold goals, believe in uncompromising honesty, support mutual respect, care about environmental responsibility, have a passion for excellence and a desire to make a positive contribution – then we want you to join the Husky TechnologiesTM team!
+
+  
+
+
+**Job Description**
+
+
+
+As part of the Development Engineering team, the Control Software Designer designs, supports, and troubleshoots control systems for Injection Molding Machines(IMM) and Mold controllers. This role operates in a fast\\-paced, innovative environment and focuses on developing creative, high\\-quality solutions to complex technical challenges.
+
+
+**Key Responsibilities/Areas of Accountability:**
+
+
+* Design control systems for IMM and Mold controller applications including servo drive and servo\\-hydraulic controls, injection molding process control.
+
+
+* Provide functional, design specifications and validation plans for new IMM and Mold controller functionality.
+
+
+* Software development of machine sequences (PLC IEC 61131\\-3\\), process control, human\\-machine interface(HMI) in Windows environment.
+
+
+* Troubleshoot and debug real\\-time and non\\-real\\-time software.
+
+
+* Document software changes using resources such as TFS/VSTS and Azure DevOps.
+
+
+* Document development, design changes and production design activities.
+
+
+* Communicate design with other design groups and businesses.
+
+
+**Requirements**:
+
+
+* Bachelor’s Degree or higher in Electrical \\& Electronics/ECE/Instrumentation/Software Engineering preferred, or equivalent.
+
+
+* Minimum 5 years hands\\-on experience in automated control system design and troubleshooting preferred.
+
+
+* Machine design/develop with Beckhoff, Siemens, GE, ABB and Allen Bradley products background are preferred.
+
+
+* PLC structured text language design and programming using IEC 61131\\-3\\.
+
+
+* Experience in programming using C, C\\+\\+, C\\# or other high\\-level languages for HMI applications (Ruby).
+
+
+* Strong knowledge of PC based control systems and embedded system.
+
+
+* Strong Knowledge of control theory and model\\-based design principles.
+
+
+* Knowledge of PLC’s and motion controllers.
+
+
+* Working knowledge of standard industrial communication networks and protocols such as RS232, RS485, Ethernet, CANOpen, Profibus, Profinet and EtherCAT.
+
+
+* Ability to read control circuits using Eplan as a resource.
+
+
+* Experience with Beckhoff TwinCAT3\\.
+
+
+* Experience designing, debugging and deploying software in VSTS development environment.
+
+
+* Machine design/develop with Beckhoff, Siemens, GE, ABB and Allen Bradley products background are preferred.
+
+
+* Experience in Agile software design process and Test Driven Development methodologies.
+
+
+* Familiarity and experience with AI and it’s use in software development, ideation, and the creation of tools
+
+
+* Strong proficiency in English with effective verbal, written.
+
+
+**Personal Qualifications:**
+
+
+* Ability to communicate complex technical concepts clearly, verbally and in writing.
+
+
+* A quick independent learner, able to digest and understand complex concepts.
+
+
+* An intelligent thinker, able to formulate hypotheses, troubleshoot, analyze, and propose solutions.
+
+
+* Highly creative with the ability to develop multiple concepts to resolve problems.
+
+
+* Capable of Working in a multi\\-disciplined international team with excellent personal organization skills.
+
+  
+
+  
+
+  
+
+Husky TechnologiesTM offers a competitive compensation and benefits package and excellent opportunities for growth and advancement. We are committed to equal employment opportunity and respect, value and welcome diversity in our workplace. Husky TechnologiesTM also values being a great place to work and strives to maintain a safe workplace. Accordingly, Husky TechnologiesTM conditions all offers of employment on satisfactory completion of background checks. No agency or telephone inquiries please.","Industrial Manufacturing","https://in.indeed.com/cmp/Husky-Injection-Molding","https://d2q79iu7y748jz.cloudfront.net/s/_squarelogo/256x256/cfe19a3dd23d9d563ed0094526981e5a","http://www.husky.co/EN-US/","Bolton, Ontario, Canada","1,001 to 5,000","","","","","","","",""
+"in-51c5759d9589f2b2","indeed","https://in.indeed.com/viewjob?jk=51c5759d9589f2b2","https://www.husky.co/en/careers/portal/details/?id=CfDJ8L4dFXU0cMFPhzBpWJtyC3nfN94rG_bnGVVoJrgrAuRzmn2oqFb07cU6nHOp1LwfHrNHaZ8ZJfdivCPzwv4YAFNTpTT4-aDSxGwBar3xqrzHAM8gxG6COV8mdHi6EAHMRg&title=Development+Designer+:+HMI-Development+Engineering+-Husky(India)Chennai,Guindy","Development Designer : HMI-Development Engineering -Husky(India)Chennai,Guindy","Husky Injection Molding","TN, IN","2026-07-08","fulltime","","","","","",False,"","","","","At Husky TechnologiesTM, our success is based on your success. Our ability to keep our customers in the lead is based on building the strongest team possible.
+
+
+
+Husky TechnologiesTM has a strong foundation built on innovation, close customer relationships and a unique culture and values. We are dedicated to offering our customers the highest quality products and services and are looking for people with the inspiration and talent to develop with us as we pursue our ambitious growth strategy. We are a leader in developing state\\-of\\-the\\-art technology and it is this technology base that uniquely positions us to serve customers who seek differentiation through solutions that provide speed, flexibility and maximum productivity. This capability is at the core of our mission and competitive strategy.
+
+
+
+Husky TechnologiesTM offers a wealth of opportunity for personal growth and development. Most importantly, Husky Technologies TM offers an opportunity to work with – and be challenged by – a team of great people. Our success is possible because of the creativity, intelligence and passion of our people around the world and their desire to lead change. At the same time, we are not afraid to expect a lot and strive for leadership in all of our key markets. We are a company taking on new challenges and for the right people this means exceptional career development opportunities, the chance to be part of a team that is the best in the world at what we do and the experience that comes from working in an environment that demands constant transformation and innovation.
+
+
+
+Husky TechnologiesTM is an exciting company with tremendous potential. We have a great team and great expectations. If you are attracted to bold goals, believe in uncompromising honesty, support mutual respect, care about environmental responsibility, have a passion for excellence and a desire to make a positive contribution – then we want you to join the Husky TechnologiesTM team!
+
+
+**Job Description**
+
+
+
+The role of a Software Engineer within the Industrial Controls/Automation Platform team is to create state\\-of\\-the\\-art elegant, efficient, correct, and effective software and solutions for Husky’s industrial products and internal software production systems. This encompasses all phases of the design process, including ideation, requirements clarification, design, implementation, testing and validation and support. The ideal candidate understands, and have passion for the manufacturing industry and automation, and experience with designing industrial software systems – OEM, real\\-time and embedded systems experience is an asset.
+
+
+**Key Responsibilities**
+
+
+* Design and implement best in class control and operator interface software (HMI) for industrial machinery.
+
+
+* Design systems and tools for efficient software production in a dynamic environment.
+
+
+* Design and implement industrial communication software.
+
+
+* Diagnoses and troubleshoot complex and challenging technical problems.
+
+
+* Contribute to continuous improvement and next generation software design.
+
+
+* Communicate complex technical material in an understandable and digestible manner, verbally and in writing.
+
+
+**Technical Qualifications**
+
+
+* Bachelor’s degree or higher in Electrical \\& Electronics/Controls/Software Engineering preferred, or equivalent.
+
+
+* Minimum 5 years of experience.in software engineering.
+
+
+* Minimum of 3\\-5 years’ Experience with Microsoft tools and languages \\- Visual Studio, C\\#, and the .NET platform (C, C\\+\\+ an asset)
+
+
+* Understanding and experience with basic UX (user experience) principles
+
+
+* Familiarity with control software and platforms (Modern programmable logic controllers)
+
+
+* Exposure to and understanding of industrial communication protocols (TCP/IP, OPC U/A, ModBus, CanBus, IoT).
+
+
+* Exposure to and understanding of programmable logic controllers and programming (IEC61131\\-3, Beckhoff TwinCAT, Siemens, Alan Bradley).
+
+
+* Working knowledge of Microsoft SQL Server and database systems.
+
+
+* Some familiarity with web technologies, some experience with developing back\\-end and front\\-end.
+
+
+* Understanding and experience with asynchronous programming, multi\\-threading, multi\\-tasking, real\\-time systems.
+
+
+* Familiarity and experience with AI and it’s use in software development, ideation, and the creation of tools
+
+
+**Personal Qualifications**
+
+
+* Ability to communicate complex technical concepts clearly, verbally and in writing.
+
+
+* A quick independent learner, able to digest and understand complex concepts.
+
+
+* An intelligent thinker, able to formulate hypotheses, troubleshoot, analyze, and propose solutions.
+
+
+* Highly creative with the ability to develop multiple concepts to resolve problems.
+
+
+* Capable of Working in a multi\\-disciplined international team with good personal organization skills.
+
+  
+
+  
+
+
+
+  
+
+  
+
+Husky TechnologiesTM offers a competitive compensation and benefits package and excellent opportunities for growth and advancement. We are committed to equal employment opportunity and respect, value and welcome diversity in our workplace. Husky TechnologiesTM also values being a great place to work and strives to maintain a safe workplace. Accordingly, Husky TechnologiesTM conditions all offers of employment on satisfactory completion of background checks. No agency or telephone inquiries please.","Industrial Manufacturing","https://in.indeed.com/cmp/Husky-Injection-Molding","https://d2q79iu7y748jz.cloudfront.net/s/_squarelogo/256x256/cfe19a3dd23d9d563ed0094526981e5a","http://www.husky.co/EN-US/","Bolton, Ontario, Canada","1,001 to 5,000","","","","","","","",""
+"in-92eb762549082630","indeed","https://in.indeed.com/viewjob?jk=92eb762549082630","https://apply.careers.microsoft.com/careers/job/1970393556926076?utm_source=indeed&domain=microsoft.com","Cloud Solution Architect - AI Biz Solutions","Microsoft","KA, IN","2026-07-07","fulltime","","","","","",False,"","","","","**Overview**  
+
+Proactively acts as the voice of the customer/partner and internal communities leveraging relevant insights from feedback tools and systems. Identifies and/or translates customer/partner problems into industry solutions. Drives self and guides other team members to focus on customer/partner experience through efficient delivery and ensuring a seamless and connected customer experience. Proactively identifies, escalates, and mitigates blockers using appropriate tools. Delivers solutions in line with company methodologies, ensuring proven practices and patterns are followed. Proactively identifies new opportunities for Consumption, Usage \\& Unified expansion at scale. Operates according to required operational excellence and proven practice standards throughout all sales stages/activities/tools of record. Leverages market insights and demand signals. Contributes to leading virtual teams using knowledge of Microsoft architectures and their context in the competitive landscape. Proactively identifies gaps that enable solutions to scale across customers.
+
+ **Responsibilities**  
+
+**Business Impact**
+Operates according to required operational excellence and proven practice standards throughout all sales stages/activities/tools of record (e.g., pipeline updates, time tracking). Collaborates across Microsoft and customer/partner teams through on\\-strategy delivery to achieve customer/partner objectives and increase customer/partner satisfaction. Proactively manages business and technical risks, adapts methodology and applies governance principles to identify, communicate, and minimize business and technical risks. Executes work in compliance with industry and Microsoft guidelines and procedures. Continuously prioritizes among competing demands in their work and identifies where impact occurs with customers, ensuring alignment with business priorities and goals.
+Delivers solutions in line with company methodologies (e.g., product offerings such as value\\-based deliverables \\[VBDs], advice, training, technical validation), ensuring proven practices and patterns are followed to prepare customers for operational readiness and achievement of their business goals and targets. Leveraging knowledge of change management proven practices and/or involving the change management team, proactively helps the customer deploy for long\\-term organizational adoption to increase customer satisfaction and drive consumption/usage. Guides customers/partners towards a well\\-architected (e.g., secure, resilient, artificial intelligence \\[AI]\\-enabled), and cost\\- and performance\\-optimized solution to increase retention and expansion opportunities. Provides feedback to Unified Delivery Team on VBDs to refine and further develop content.
+Proactively identifies new opportunities for Consumption, Usage \\& Unified expansion (especially Enhanced Solutions) at scale based on business value to customer/partner and clear understanding of the Microsoft value proposition for supported platforms to empower cloud success, foster and strengthen security and resiliency, and drive AI innovation. Actively listens to and respectfully challenges customers/partners, building trust to then advocate for alternative architectures/solutions/approaches that shape and/or enhance customer requirements. Identifies, and evaluates industry trends (e.g., customer industry verticals, information technology \\[IT] industry), gathers customer/partner insights (e.g., feedback around technical preferences, environments, business needs, competitive landscape), and maps existing architecture and digital transformation solutions to customer/partner business outcomes. Proactively captures opportunities in appropriate systems, processes, and tools, working collaboratively across the organization to execute on opportunities aligned with Microsoft's Customer Engagement Model.
+Proactively identifies, escalates, and mitigates blockers using appropriate tools and processes to accelerate solution deployment, value realization and usage/consumption. Applies business, technical, industry, and/or enterprise knowledge to architecture or support projects to meet business and information technology (IT) requirements and resolve identified constraints.
+**Customer Centricity**
+Proactively acts as the voice of the customer/partner, sharing ideas, feedback, insights, success stories and strategic/technical input with Engineering teams, Product Offerings teams and internal communities leveraging relevant insights from feedback tools and systems. Identifies patterns of feedback across customers/partners/territories/industries and leverages them to develop strategic and actionable insights. Presents business cases to program managers to influence product roadmaps, decision making, bug fix prioritization, and own and drive initiatives as appropriate.
+Identifies and/or translates customer/partner problems into industry solutions aligned with Microsoft product and platform strategy, and explains why and/or how they meet customer/partner outcomes and return on investment (ROI) goals (e.g., via proof of concept, minimally viable product \\[MVP], rapid prototype) relative to competitive offerings. Proactively helps the customer/partner adopt and use Microsoft product/platform strategy\\-aligned (cross\\-solution area) solutions. Builds relationships with technical decision makers (TDMs), and helps build the bridge between TDMs and business decision makers (BDMs). Independently interacts as needed with customers/partners' Chief Information Officer (CIO), Chief Information Security Officer (CISO) and other C\\-level (CXO) roles to bridge understanding of security, compliance, operational and risk requirements across BDMs, TDMs, CIO and CISO teams, appropriately engaging additional subject matter experts when deeper expertise is required.
+Drives self and guides other team members to focus on customer/partner experience through efficient delivery and ensuring a seamless and connected customer experience. Defines customer/partner conditions of success by leveraging an understanding of customer goals. Anticipates and addresses customer/partner dissatisfaction and unmet needs, and executes strategies to improve customer experience, value realization, and acceleration of transformation.
+**Partner Specialization**
+Identifies and prioritizes several opportunities that align with revenue goals, and orchestrates growth of solution utilization pipeline with partners. Provides assistance with partner and sales teams to bring clarity to specific opportunities through proof of concept and technical pre\\-sales support.
+Understands solution area\\-specific market opportunities (e.g., competitor insights) and collaborates with Global Partner Solutions (GPS) business stakeholders to lead and execute initiatives to translate opportunities into actions. Proactively guides and supports partners in developing repeatable offerings, practices, products, and solutions. Advises the partner throughout initial strategic customer implementations.
+**Technical Leadership**
+Leverages market insights and demand signals to assist leadership in identifying relevant areas in which to drive up\\-skilling and/or accreditations based on demand. Role models technical readiness, both depth\\-aligned to solution area priorities and breadth\\-aligned to Customer Success Unit (CSU)/corporate initiatives (e.g., security, resilience, AI), and influences team to drive their own technical readiness. Acts as a mentor, leading readiness and upskilling activities in the team/organization by educating colleagues on technical and non\\-technical concepts and sharing proven practices.
+Contributes to leading virtual teams (v\\-teams) around technologies and customer/partner challenges, and shares ideas, insights, and strategic, technical input with technical teams, internal communities across the field, and the larger virtual team across Microsoft using knowledge of Microsoft architectures and their context in the competitive landscape. Demonstrates strong industry knowledge and increases recognition for Microsoft solutions by contributing to and sometimes leading presentations and engagements with external and internal audiences (e.g., Tech Connect, Build, Ignite) Contributes to intellectual property (IP) and identifies patterns where no IP exists (e.g., CoPilot and AI scenarios) to help build scalable and repeatable models. Participates in external technical and non\\-technical community events (e.g., conferences, seminars, technical meetups, webcasts, blogs, hackathons) that elevate the Microsoft brand and shares learnings across internal teams.
+Proactively identifies gaps through delivery, communicates those gaps to relevant team members and internal/external stakeholders, and connects gaps and patterns across business and technology areas that drive changes and improvements to products, intellectual property (IP) (both existing and new), technologies, and/or processes/practices that enable solutions to scale across customers. Contributes to the development and modification of Microsoft's structured frameworks and methodologies. Provides thought leadership and innovation to customers/partners and internal communities at the local level.  
+
+**Qualifications**  
+
+**Driving Customer Outcomes** \\- Understanding and mapping customer requirements to the company's offerings effectively. Identifying opportunities, translating customer needs into tailored solutions, ensuring that products or services precisely meet customer expectations, resulting in high levels of satisfaction and success.
+* **Business Relationship Management** \\- The ability to develop and maintain positive working relationships with supervisors, staff, managers, customers, and vendors. This includes expressing empathy and compassion when dealing with the needs and problems of others, being approachable, taking time to address the concerns of coworkers, and treating others with respect and dignity.
+* **Change Management \\-** The ability to define and implement procedures and/or technologies to deal with changes in the environment. This may include adapting to change, controlling change, and/or affecting change.
+* **Customer Advocacy** \\- Knowledge of Customer Advocacy, a continuing focus on the requirements of the company’s customers, anticipating their needs, remaining sensitive to customers while performing services for them, being responsive to customer requests, generally working on their behalf.
+* **Trusted Advisor** \\- The ability to build trusted advisor status and deep relationships across stakeholders (e.g., technical decision makers, business decision makers) through an understanding of customer needs and technologies.
+
+ **Leading with Technical Intensity \\-** Being the trusted technical advisor to the customer, prioritizing technical skills growth aligned with our cloud strategy, and infusing technical insight into helping the customer make the right business decisions.* **Architecture Design** \\- The ability to apply reference architecture and patterns for a variety of solutions (e.g., advanced analytics, artificial intelligence, big data, Internet of Things, modern business intelligence and analytics, modern applications, data platform modernization, data warehousing, business intelligence and analytics, etc.).
+* **Security Solutions** \\- Knowledge of security concepts and relevant Microsoft solutions (e.g., Azure Active Directory, Multi\\-Factor Authentication).
+* **Technical Solution Development** \\- Knowledge of the process of developing technical solutions and ability to design, customize, or reapply technical solutions based on customer/partner needs or demands.
+* **Technology Industry Knowledge** \\- Knowledge of trends, direction, new products, and changes in the technology as it applies to a particular area of focus, as well as specific knowledge about hardware, software, and services.
+
+**Understanding the Business \\-** Having a firm grasp of the Microsoft strategy, consumption, and support and connecting that to customer outcomes, using data to find new opportunities and demonstrate customer success, and leverage internal systems to accurately capture the state of the customer.* **Operational Excellence** \\- The ability to apply principles, systems, tools, and strategic insights to sustainably improve key performance metrics (KPIs) and drive operational efficiencies.
+* **Opportunity Identification** \\- The ability to understand customer needs and identify opportunities for additional products and services.
+  
+
+  
+
+This position will be open for a minimum of 5 days, with applications accepted on an ongoing basis until the position is filled.
+
+  
+
+Microsoft is an equal opportunity employer. All qualified applicants will receive consideration for employment without regard to age, ancestry, citizenship, color, family or medical care leave, gender identity or expression, genetic information, immigration status, marital status, medical condition, national origin, physical or mental disability, political affiliation, protected veteran or military status, race, ethnicity, religion, sex (including pregnancy), sexual orientation, or any other characteristic protected by applicable local laws, regulations and ordinances. If you need assistance with religious accommodations and/or a reasonable accommodation due to a disability during the application process**.**","Internet And Software","https://in.indeed.com/cmp/Microsoft","https://d2q79iu7y748jz.cloudfront.net/s/_squarelogo/256x256/88813b3f866a5b58c9685073e3b87e05","http://www.microsoft.com/","One Microsoft Way Redmond, Washington 98052-6399","10,000+","more than $10B (USD)","Our mission is to empower every person and every organization on the planet to achieve more.","","","","","",""
+"in-7d5d6d2f966542cb","indeed","https://in.indeed.com/viewjob?jk=7d5d6d2f966542cb","https://www.husky.co/en/careers/portal/details/?id=CfDJ8L4dFXU0cMFPhzBpWJtyC3njUpTjFgr8dkbjEbS9Mss7sPf7LXSo9As2XPHBBseaRkv273Jy7TPkya4kXX1U74gqwSat146gNuCm-poWgtobCGizfUc32lCZOqjO5JB4SQ&title=Sr+Developer+-+Shotscope™+(.NET+Full+Stack)-+Husky+(Guindy,+Chennai)","Sr Developer - Shotscope™ (.NET Full Stack)- Husky (Guindy, Chennai)","Husky Injection Molding","TN, IN","2026-06-24","fulltime","","","","","",False,"","","","","At Husky TechnologiesTM, our success is based on your success. Our ability to keep our customers in the lead is based on building the strongest team possible.
+
+
+
+Husky TechnologiesTM has a strong foundation built on innovation, close customer relationships and a unique culture and values. We are dedicated to offering our customers the highest quality products and services and are looking for people with the inspiration and talent to develop with us as we pursue our ambitious growth strategy. We are a leader in developing state\\-of\\-the\\-art technology and it is this technology base that uniquely positions us to serve customers who seek differentiation through solutions that provide speed, flexibility and maximum productivity. This capability is at the core of our mission and competitive strategy.
+
+
+
+Husky TechnologiesTM offers a wealth of opportunity for personal growth and development. Most importantly, Husky Technologies TM offers an opportunity to work with – and be challenged by – a team of great people. Our success is possible because of the creativity, intelligence and passion of our people around the world and their desire to lead change. At the same time, we are not afraid to expect a lot and strive for leadership in all of our key markets. We are a company taking on new challenges and for the right people this means exceptional career development opportunities, the chance to be part of a team that is the best in the world at what we do and the experience that comes from working in an environment that demands constant transformation and innovation.
+
+
+
+Husky TechnologiesTM is an exciting company with tremendous potential. We have a great team and great expectations. If you are attracted to bold goals, believe in uncompromising honesty, support mutual respect, care about environmental responsibility, have a passion for excellence and a desire to make a positive contribution – then we want you to join the Husky TechnologiesTM team!
+
+  
+
+  
+
+
+
+**Job Description**
+
+
+
+Lead the technology behind Shotscope™, one of Husky’s flagship software solutions powering real time manufacturing intelligence on factory floors worldwide.
+
+
+
+As Tech Lead for Shotscope™, Husky’s plantwide monitoring and execution solution, you will drive the technical direction of a product that connects machines, processes, and data to improve production, quality, energy efficiency, and uptime. This is a hands\\-on technical leadership role where your decisions directly influence how factories operate.
+
+
+
+If you want to build industrial grade software that truly matters, Shotscope™ puts you at the core of Industry 4\\.0\\.
+
+
+**Responsibilities**
+
+
+**Technical Leadership**
+
+
+* Understand the E2E high level architecture (big picture)
+
+
+* Translate the HLD (high level design) into the LLD (low level design) in collaboration with architects and own the LLD
+
+
+* Technical direction for the product area
+
+
+* Contribute to coordinating cross\\-team dependencies and integration points
+
+
+**Delivery \\& Execution Excellence**
+
+
+* Contribute to the feature definition and review
+
+
+* Generate concepts and facilitate the concept selection
+
+
+* Breaking down complex features into actionable tasks
+
+
+* Helping with estimation and sprint planning
+
+
+* Addressing technical impediments
+
+
+* Own production readiness (incl. non\\-functional requirements)
+
+
+**Quality, Governance \\& Security**
+
+
+* Ensuring code quality
+
+
+* Conducting meaningful code reviews and ensuring adherence to DoR (Definition of Ready) / DoD (Definition of Done) criteria
+
+
+* Ensure adherence to applicable standards, policies, and practices (e.g. DevSecOps)
+
+
+**Incident Response**
+
+
+* Leading incident response, root cause analysis (RCA), and post\\-mortems
+
+
+**Mentorship \\& Team Growth**
+
+
+* Mentoring team members
+
+
+* Documenting key design decisions
+
+
+* Participate in interviews and hiring decisions
+
+
+* Promoting engineering best practices and driving continuous improvement
+
+
+**Collaboration \\& Communication**
+
+
+* Act as the primary technical point of contact across Product, Architecture, and Platform teams.
+
+
+* Clearly communicate technical decisions and trade\\-offs to non\\-technical stakeholders.
+
+
+**Qualifications**
+
+
+* Bachelor’s degree in computer science, IT, or related field.
+
+
+* 10\\+ years professional experience in software development.
+
+
+* Proficiency in .NET technologies (C\\#, ASP.NET Core, SQL, .NET Framework, Entity Framework).
+
+
+* Strong grasp of Agile methodologies, DevOps principles, application security and version control systems (e.g., Azure DevOps).
+
+
+* Proficiency in modern front\\-end frameworks (e.g., preference: React; Angular).
+
+
+* Clean Code Development and working experience with Unit Testing, and Test\\-driven Development.
+
+
+* Familiarity with source code version control, branching strategies, CI/CD pipelines and other DevOps practices.
+
+
+* Working knowledge of Agile development practices.
+
+
+* Excellent communication skills and ability to work in a team.
+
+
+* Fluency in English (spoken and written).
+
+
+* Strong problem\\-solving skills and attention to detail.
+
+
+* Ability to adjust quickly to changing assignments, and priorities.
+
+
+**Assets**
+
+
+* Experience using AI assisted coding tools (e.g. GitHub Copilot) responsibly, with full accountability for code quality, security, and compliance.
+
+
+* Familiarity with Microsoft Azure, with experience in leveraging key services (e.g., Azure App Services, Azure Functions).
+
+
+* Exposure to Microsoft SQL Server BI stack, including SSAS (OLAP cube design), SSRS (report development), and SSIS (ETL processes and data integration).
+
+
+**Why Husky?**
+
+
+* Regulated Working Hours: Enjoy a structured work schedule that promotes a healthy work\\-life balance, allowing you to excel professionally while maintaining personal well\\-being.
+
+
+* Visible Impact: Experience the satisfaction of seeing the direct outcomes of your work, as you contribute to projects that visibly enhance our company's technological capabilities and efficiency.
+
+
+* Strategic Influence: Participate in architectural and technical reviews, contributing to the strategic direction of our cloud initiatives and making a tangible impact on our company's technological landscape.
+
+
+* Empowered Involvement: Take an active role in decision\\-making processes and architectural reviews, where your expertise helps shape the future of our cloud solutions and overall business strategy.
+
+
+* Valued Contributions: Be more than just a number in a large organization; at our company, every individual's input is valued and can lead to significant, tangible improvements in our operations and services.
+
+
+* Impactful Role: Play a crucial part in both developing new applications and maintaining existing systems, ensuring their optimal performance and reliability.
+
+
+* Cutting\\-Edge Projects: Work on innovative cloud solutions that are transforming our and our customer’s business, giving you the opportunity to be at the forefront of technological advancements.
+
+
+* Supportive Community: Work in an environment that recognizes and celebrates individual achievements, fostering a sense of community and mutual respect among team members.
+
+  
+
+
+* Collaborative Environment: Join a global team of skilled professionals around the globe where your ideas are valued, and collaboration is encouraged to solve complex challenges and drive success.
+
+  
+
+  
+
+  
+
+Husky TechnologiesTM offers a competitive compensation and benefits package and excellent opportunities for growth and advancement. We are committed to equal employment opportunity and respect, value and welcome diversity in our workplace. Husky TechnologiesTM also values being a great place to work and strives to maintain a safe workplace. Accordingly, Husky TechnologiesTM conditions all offers of employment on satisfactory completion of background checks. No agency or telephone inquiries please.","Industrial Manufacturing","https://in.indeed.com/cmp/Husky-Injection-Molding","https://d2q79iu7y748jz.cloudfront.net/s/_squarelogo/256x256/cfe19a3dd23d9d563ed0094526981e5a","http://www.husky.co/EN-US/","Bolton, Ontario, Canada","1,001 to 5,000","","","","","","","",""
+"in-2b81043bffc7d977","indeed","https://in.indeed.com/viewjob?jk=2b81043bffc7d977","https://www.husky.co/en/careers/portal/details/?id=CfDJ8L4dFXU0cMFPhzBpWJtyC3lGWkZD71WqymakGoUtIMg-42G-IKccI6Cl6G2T9V3KsY9F1lwpVEpC_eLiLGlelFYp0MppPTa0WlTPxBcNcNYh4W8TNmrc9fodk_zEn_yR7w&title=Platform+Engineer+-+(Azure,+IaC+&+DevOps)+-+Husky+(Guindy,+Chennai)","Platform Engineer - (Azure, IaC & DevOps) - Husky (Guindy, Chennai)","Husky Injection Molding","TN, IN","2026-06-24","fulltime","","","","","",False,"","","","","At Husky TechnologiesTM, our success is based on your success. Our ability to keep our customers in the lead is based on building the strongest team possible.
+
+
+
+Husky TechnologiesTM has a strong foundation built on innovation, close customer relationships and a unique culture and values. We are dedicated to offering our customers the highest quality products and services and are looking for people with the inspiration and talent to develop with us as we pursue our ambitious growth strategy. We are a leader in developing state\\-of\\-the\\-art technology and it is this technology base that uniquely positions us to serve customers who seek differentiation through solutions that provide speed, flexibility and maximum productivity. This capability is at the core of our mission and competitive strategy.
+
+
+
+Husky TechnologiesTM offers a wealth of opportunity for personal growth and development. Most importantly, Husky Technologies TM offers an opportunity to work with – and be challenged by – a team of great people. Our success is possible because of the creativity, intelligence and passion of our people around the world and their desire to lead change. At the same time, we are not afraid to expect a lot and strive for leadership in all of our key markets. We are a company taking on new challenges and for the right people this means exceptional career development opportunities, the chance to be part of a team that is the best in the world at what we do and the experience that comes from working in an environment that demands constant transformation and innovation.
+
+
+
+Husky TechnologiesTM is an exciting company with tremendous potential. We have a great team and great expectations. If you are attracted to bold goals, believe in uncompromising honesty, support mutual respect, care about environmental responsibility, have a passion for excellence and a desire to make a positive contribution – then we want you to join the Husky TechnologiesTM team!
+
+  
+
+
+**Job Description**
+
+
+
+Do you want to work on the cloud foundations that enable every Husky product and solution team to succeed?
+
+
+
+As an Engineer in our Platform Engineering team, you’ll help build, operate, and evolve our Azure cloud platform, contributing to Infrastructure\\-as\\-Code, CI/CD pipelines, and shared platform services. You’ll implement platform components based on established designs, contribute automation and reliability improvements, and support a platform that is used by many teams across the organization.
+
+
+
+This role is ideal for an engineer who enjoys hands\\-on technical work, learning modern cloud and DevOps practices, and seeing their contributions amplified across multiple products—with clear opportunities to grow toward senior and lead roles.
+
+
+
+If you like building the paved road that others build on, this is where your platform engineering journey starts.
+
+
+**Responsibilities**
+
+
+**Technical Implementation**
+
+
+* Implement software components and features based on provided designs, specifications, and guidance.
+* Contribute to the development of reliable, maintainable, and secure code within the assigned scope.
+* Apply agreed coding standards, patterns, and best practices in daily development work.
+* Make basic technical decisions within assigned tasks, escalating questions or uncertainties when needed.
+
+
+**Delivery \\& Execution Excellence**
+
+
+* Translate assigned requirements and tasks into working software.
+* Complete development work in alignment with sprint goals and delivery commitments.
+* Contribute to task breakdowns and effort estimates for assigned work.
+* Proactively raise risks, blockers, or implementation issues to the team.
+
+
+**Quality, Standards \\& Engineering Practices**
+
+
+* Write clean, testable code and contribute to unit and integration tests.
+* Participate in code reviews, incorporating feedback and learning from peers.
+* Ensure individual contributions meet Definition of Ready (DoR) and Definition of Done (DoD) criteria.
+* Follow established DevOps, security, and quality practices.
+
+
+**Incident \\& Operational Support**
+
+
+* Assist in troubleshooting defects and issues in development and production environments.
+* Support corrective (bug fixes) and evolutive (enhancements) maintenance of existing solutions.
+
+
+**Collaboration \\& Growth**
+
+
+* Collaborate effectively with other developers, QA, Product Owners, and Tech Leads.
+* Seeking feedback and guidance to continuously improve technical skills.
+* Actively learn the systems, tools, and technologies used by the team.
+* Contribute positively to team culture and shared ownership of outcomes.
+
+
+**Qualifications**
+
+
+* Bachelor’s degree in computer science, IT, or related field.
+* 4\\+ years in cloud / DevOps / platform engineering, building IaC and CI/CD foundations for multiple teams (or equivalent demonstrated ownership/impact).
+* Hands\\-on Azure platform engineering background, with proven ability to design and evolve shared platform capabilities that enable multiple dev/product teams.
+* Infrastructure as Code (IaC) lifecycle expertise: able to design, review, and maintain IaC repositories and patterns as a productized capability for others (not “one\\-off scripts”).
+* Containerization: Experience designing, deploying, and operating containerized applications using Azure Kubernetes Services, Container Apps, Container Instances.
+* CI/CD development: experience implementing and maintaining pipelines (validation, approvals, promotion) and embedding them into the development lifecycle.
+* Experience with security automation in the DevSecOps lifecycle (e.g., vulnerability scanning / secrets\\-related automation) as part of the platform pipeline/toolchain.
+* Azure DevOps \\& Git workflows: practical experience with branching, pull requests, and pipeline\\-based validation/approval gates (e.g., plan/validate then approval then apply).
+* Support developer enablement: build reusable templates/tooling and improve developer experience through automation and standardization.
+* Working knowledge of Agile development practices.
+* Excellent communication skills and ability to work in a team.
+* Fluency in English (spoken and written).
+* Strong problem\\-solving skills and attention to detail.
+* Ability to adjust quickly to changing assignments, and priorities.
+
+
+**Assets**
+
+
+* Experience using AI‑assisted coding tools (e.g. GitHub Copilot) responsibly, with full accountability for code quality, security, and compliance.
+* Practical exposure to monitoring/observability enablement (platform\\-level logging/metrics/tracing patterns and tooling integration).
+* Understanding of cloud core (hub) services and platform services that are consumed by product teams (i.e., thinking in reusable building blocks).
+* Familiarity with cost optimization / FinOps mechanics as they relate to platform foundations and guardrails.
+* Understanding of governance and compliance\\-by\\-design for cloud foundations (standards, policies, tagging/naming conventions as guardrails).
+* Understanding of compliance and security frameworks and standards, e.g. SOX, ISO 27001\\.
+
+
+**Why Husky?**
+
+
+* **Regulated Working Hours:** Enjoy a structured work schedule that promotes a healthy work\\-life balance, allowing you to excel professionally while maintaining personal well\\-being.
+* **Visible Impact:** Experience the satisfaction of seeing the direct outcomes of your work, as you contribute to projects that visibly enhance our company's technological capabilities and efficiency.
+* **Strategic Influence:** Participate in architectural and technical reviews, contributing to the strategic direction of our cloud initiatives and making a tangible impact on our company's technological landscape.
+* **Empowered Involvement:** Take an active role in decision\\-making processes and architectural reviews, where your expertise helps shape the future of our cloud solutions and overall business strategy.
+* **Valued Contributions:** Be more than just a number in a large organization; at our company, every individual's input is valued and can lead to significant, tangible improvements in our operations and services.
+* **Impactful Role:** Play a crucial part in both developing new applications and maintaining existing systems, ensuring their optimal performance and reliability.
+* **Cutting\\-Edge Projects:** Work on innovative cloud solutions that are transforming our and our customer’s business, giving you the opportunity to be at the forefront of technological advancements.
+* **Supportive Community:** Work in an environment that recognizes and celebrates individual achievements, fostering a sense of community and mutual respect among team members.
+* **Collaborative Environment:** Join a global team of skilled professionals around the globe where your ideas are valued, and collaboration is encouraged to solve complex challenges and drive success.
+
+  
+
+  
+
+
+
+Husky TechnologiesTM offers a competitive compensation and benefits package and excellent opportunities for growth and advancement. We are committed to equal employment opportunity and respect, value and welcome diversity in our workplace. Husky TechnologiesTM also values being a great place to work and strives to maintain a safe workplace. Accordingly, Husky TechnologiesTM conditions all offers of employment on satisfactory completion of background checks. No agency or telephone inquiries please.","Industrial Manufacturing","https://in.indeed.com/cmp/Husky-Injection-Molding","https://d2q79iu7y748jz.cloudfront.net/s/_squarelogo/256x256/cfe19a3dd23d9d563ed0094526981e5a","http://www.husky.co/EN-US/","Bolton, Ontario, Canada","1,001 to 5,000","","","","","","","",""
+"li-4415175674","linkedin","https://www.linkedin.com/jobs/view/4415175674","","Embedded Software Engineer","Meril","Vapi, Gujarat, India","2026-07-11","","","","","","",False,"","","","","","","https://in.linkedin.com/company/meril","","","","","","","","","","","",""
+"li-4431319136","linkedin","https://www.linkedin.com/jobs/view/4431319136","","Software Development Engineer","Amazon","Bengaluru, Karnataka, India","2026-07-11","","","","","","",False,"","","","","","","https://www.linkedin.com/company/amazon","","","","","","","","","","","",""
+"li-4417212801","linkedin","https://www.linkedin.com/jobs/view/4417212801","","Software Engineer 3 - Frontend","eBay","Bengaluru, Karnataka, India","2026-07-11","","","","","","",False,"","","","","","","https://www.linkedin.com/company/ebay","","","","","","","","","","","",""
+"li-4439090518","linkedin","https://www.linkedin.com/jobs/view/4439090518","","Software Engineer","DHL","Indore, Madhya Pradesh, India","2026-07-10","","","","","","",False,"","","","","","","https://de.linkedin.com/company/dhl","","","","","","","","","","","",""
+"li-4439021399","linkedin","https://www.linkedin.com/jobs/view/4439021399","","Software Engineer, Intern","Stripe","Bengaluru, Karnataka, India","2026-07-10","","","","","","",False,"","","","","","","https://www.linkedin.com/company/stripe","","","","","","","","","","","",""
+"li-4439052557","linkedin","https://www.linkedin.com/jobs/view/4439052557","","Software Development Engineer -AI","Airtel Payments Bank","Gurugram, Haryana, India","2026-07-10","","","","","","",False,"","","","","","","https://in.linkedin.com/company/airtelpaymentsbank","","","","","","","","","","","",""
+"li-4375460799","linkedin","https://www.linkedin.com/jobs/view/4375460799","","Software Engineer, Developer Experience","Notion","Hyderabad, Telangana, India","2026-07-10","","","","","","",False,"","","","","","","https://www.linkedin.com/company/notionhq","","","","","","","","","","","",""
+"li-4439074021","linkedin","https://www.linkedin.com/jobs/view/4439074021","","Software Engineer 2","Microsoft","Bengaluru, Karnataka, India","2026-07-10","","","","","","",False,"","","","","","","https://www.linkedin.com/company/microsoft","","","","","","","","","","","",""
+"li-4430438790","linkedin","https://www.linkedin.com/jobs/view/4430438790","","Software Development Engineer","Amazon","Bengaluru, Karnataka, India","2026-07-10","","","","","","",False,"","","","","","","https://www.linkedin.com/company/amazon","","","","","","","","","","","",""
+"li-4435939695","linkedin","https://www.linkedin.com/jobs/view/4435939695","","Software Engineer","Appinventiv","Noida, Uttar Pradesh, India","2026-07-10","","","","","","",False,"","","","","","","https://in.linkedin.com/company/appinventiv","","","","","","","","","","","",""
+"li-4428496203","linkedin","https://www.linkedin.com/jobs/view/4428496203","","Associate Software Engineer","Priceline","Mumbai, Maharashtra, India","2026-07-10","","","","","","",False,"","","","","","","https://www.linkedin.com/company/priceline-com","","","","","","","","","","","",""
+"li-4436613033","linkedin","https://www.linkedin.com/jobs/view/4436613033","","Software Engineer","Deloitte","Bengaluru, Karnataka, India","2026-07-10","","","","","","",False,"","","","","","","https://www.linkedin.com/company/deloitte","","","","","","","","","","","",""
+"li-4435951270","linkedin","https://www.linkedin.com/jobs/view/4435951270","","Senior Software Engineer","Deloitte","Bengaluru, Karnataka, India","2026-07-10","","","","","","",False,"","","","","","","https://www.linkedin.com/company/deloitte","","","","","","","","","","","",""
+"li-4438801461","linkedin","https://www.linkedin.com/jobs/view/4438801461","","Software Engineer 2","Microsoft","Hyderabad, Telangana, India","2026-07-09","","","","","","",False,"","","","","","","https://www.linkedin.com/company/microsoft","","","","","","","","","","","",""
+"li-4437579018","linkedin","https://www.linkedin.com/jobs/view/4437579018","","Software Engineer III, Search","Google","Bengaluru, Karnataka, India","2026-07-09","","","","","","",False,"","","","","","","https://www.linkedin.com/company/google","","","","","","","","","","","",""
+"li-4437557820","linkedin","https://www.linkedin.com/jobs/view/4437557820","","Software Engineer III, YouTube","Google","Bengaluru, Karnataka, India","2026-07-09","","","","","","",False,"","","","","","","https://www.linkedin.com/company/google","","","","","","","","","","","",""
+"li-4435692111","linkedin","https://www.linkedin.com/jobs/view/4435692111","","Software Engineer 2","eBay","Bengaluru, Karnataka, India","2026-07-09","","","","","","",False,"","","","","","","https://www.linkedin.com/company/ebay","","","","","","","","","","","",""
+"li-4418568434","linkedin","https://www.linkedin.com/jobs/view/4418568434","","Software Engineer","Docusign","Bengaluru, Karnataka, India","2026-07-09","","","","","","",False,"","","","","","","https://www.linkedin.com/company/docusign","","","","","","","","","","","",""
+"li-4437576195","linkedin","https://www.linkedin.com/jobs/view/4437576195","","Software Engineer III, L and T Platform Firmware","Google","Bengaluru, Karnataka, India","2026-07-09","","","","","","",False,"","","","","","","https://www.linkedin.com/company/google","","","","","","","","","","","",""
+"li-4437573466","linkedin","https://www.linkedin.com/jobs/view/4437573466","","Software Engineer III, Mobile (Android), Search","Google","Bengaluru, Karnataka, India","2026-07-09","","","","","","",False,"","","","","","","https://www.linkedin.com/company/google","","","","","","","","","","","",""
+"li-4429040172","linkedin","https://www.linkedin.com/jobs/view/4429040172","","Software Consulting Engineer","Cisco","Pune Division, Maharashtra, India","2026-07-09","","","","","","",False,"","","","","","","https://www.linkedin.com/company/cisco","","","","","","","","","","","",""
+"li-4402362994","linkedin","https://www.linkedin.com/jobs/view/4402362994","","Software Engineer III, Google Cloud","Google","Bengaluru, Karnataka, India","","","","","","","",False,"","","","","","","https://www.linkedin.com/company/google","","","","","","","","","","","",""
+"li-4419067740","linkedin","https://www.linkedin.com/jobs/view/4419067740","","Software Engineer","hackajob","Pune Division, Maharashtra, India","","","","","","","",False,"","","","","","","https://uk.linkedin.com/company/hackajob","","","","","","","","","","","",""
+"li-4390913792","linkedin","https://www.linkedin.com/jobs/view/4390913792","","Software Engineer, AI/ML","Google","Bengaluru, Karnataka, India","","","","","","","",False,"","","","","","","https://www.linkedin.com/company/google","","","","","","","","","","","",""
+"li-4410839401","linkedin","https://www.linkedin.com/jobs/view/4410839401","","Software Engineer III, Networking, Google Cloud","Google","Bengaluru, Karnataka, India","","","","","","","",False,"","","","","","","https://www.linkedin.com/company/google","","","","","","","","","","","",""
+"li-4411201781","linkedin","https://www.linkedin.com/jobs/view/4411201781","","Software Engineer","Workplace Options","Bengaluru, Karnataka, India","","","","","","","",False,"","","","","","","https://www.linkedin.com/company/workplace-options","","","","","","","","","","","",""
+"li-4431319135","linkedin","https://www.linkedin.com/jobs/view/4431319135","","Software Development Engineer","Amazon","Bengaluru, Karnataka, India","","","","","","","",False,"","","","","","","https://www.linkedin.com/company/amazon","","","","","","","","","","","",""
+"li-4431312491","linkedin","https://www.linkedin.com/jobs/view/4431312491","","Software Development Engineer","Amazon","Bengaluru, Karnataka, India","","","","","","","",False,"","","","","","","https://www.linkedin.com/company/amazon","","","","","","","","","","","",""
+"li-4400700457","linkedin","https://www.linkedin.com/jobs/view/4400700457","","Software Test Engineer","Headout","Bengaluru, Karnataka, India","","","","","","","",False,"","","","","","","https://www.linkedin.com/company/headout-com","","","","","","","","","","","",""
+"li-4438993123","linkedin","https://www.linkedin.com/jobs/view/4438993123","","Software Engineer","Scoutit","Bengaluru South, Karnataka, India","","","","","","","",False,"","","","","","","https://in.linkedin.com/company/scoutit-in","","","","","","","","","","","",""

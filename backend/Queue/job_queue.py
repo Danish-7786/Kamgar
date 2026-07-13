@@ -26,7 +26,7 @@ def get_rabbitmq_channel():
     return connection, channel
 
 # --- 1. THE PRODUCER (Scraper) ---
-def process_job(title: str, company: str, link: str, description: str):
+def process_job(title: str,date_posted:str, company: str, link: str, description: str):
     """
     PRODUCER: This callback pre-filters the job, and if it passes, publishes to RabbitMQ.
     """
@@ -50,6 +50,7 @@ def process_job(title: str, company: str, link: str, description: str):
         "title": title,
         "company": company,
         "link": link,
+        "date_posted":date_posted,
         "description": description
     }
     

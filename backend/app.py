@@ -8,6 +8,15 @@ import threading
 from fastapi import FastAPI, BackgroundTasks, Query, HTTPException
 from Queue.job_queue import process_job,ai_worker
 from fastapi.middleware.cors import CORSMiddleware
+from pydantic import BaseModel
+
+# Platforms supported by the underlying jobspy scraper.
+ALLOWED_PLATFORMS = ["indeed", "linkedin", "google", "glassdoor", "zip_recruiter", "bayt", "naukri", "bdjobs"]
+DEFAULT_PLATFORMS = ["indeed", "linkedin", "google"]
+
+
+class ScrapeRequest(BaseModel):
+    platforms: list[str] = DEFAULT_PLATFORMS
 
 
 db = DatabaseManager()
@@ -16,8 +25,13 @@ db = DatabaseManager()
 scraper_status = {
     "is_running": False,
     "last_run": None,
-    "jobs_processed":0
+    "jobs_processed":0,
+    "offset": 0
 }
+
+# How many results per site to pull per run; also the amount the offset
+# advances each run so consecutive scrapes page through fresh jobs.
+BATCH_SIZE = 30
 
 @asynccontextmanager
 async def lifespan(app: FastAPI):
@@ -46,13 +60,20 @@ app.add_middleware(
 )
 
 
-def run_scrapper_task():
+def run_scrapper_task(site_name=None):
     global scraper_status
     # global is used to read global variable
+    if not site_name:
+        site_name = DEFAULT_PLATFORMS
     scraper_status["jobs_processed"] = 0
     scraper_status["is_running"] = True
-    try: 
-        jobs_df = job_scrapper(site_name=["indeed","linkedin","naukri","bayt","glassdoor","google"])
+    try:
+        offset = scraper_status.get("offset", 0)
+        jobs_df = job_scrapper(site_name=site_name, results_wanted=BATCH_SIZE, offset=offset)
+        # Advance the offset so the next run pages into fresh results.
+        # If this batch came back empty we've exhausted the listings, so
+        # wrap back to the start instead of paging into nothing forever.
+        scraper_status["offset"] = 0 if len(jobs_df) == 0 else offset + BATCH_SIZE
         def clean_val(val):
             if val is None or (isinstance(val, float)) and str(val).lower() == 'nan':
                 return ""
@@ -61,12 +82,13 @@ def run_scrapper_task():
         for index,row in jobs_df.iterrows():
             title = clean_val(row.get("title"))
             company = clean_val(row.get("company"))
+            date_posted = clean_val(row.get("date_posted"))
             link = clean_val(row.get("job_url") or row.get("job_url_direct"))
             description = clean_val(row.get("description"))
     
 
              # Pre-filter and publish to RabbitMQ
-            process_job(title=title, company=company, link=link, description=description)
+            process_job(title=title, company=company,date_posted = date_posted, link=link, description=description)
             count +=1
         scraper_status["jobs_processed"] = count
         scraper_status["last_run"] = datetime.now().isoformat()
@@ -80,9 +102,21 @@ def run_scrapper_task():
 @app.get("/jobs",summary = "Fetch evaluated jobs from database")
 def get_jobs(
     min_score : int = Query(0, description = "Minimum AI matching score filter",ge=0,le=100),
-    verdict : str = Query(None, description = "AI verdict filter (e.g., 'Strong Match','Partial Match')")):
-    jobs = db.fetch_jobs(min_score= min_score, verdict=verdict)
-    return {"status":"success","count":len(jobs), "data":jobs}
+    verdict : str = Query(None, description = "AI verdict filter (e.g., 'Strong Match','Partial Match')"),
+    page_size: int = Query(10, description="Number of records to fetch", ge=1, le=100),
+    page: int = Query(1, description="1-based page number", ge=1),
+    ):
+    offset = (page - 1) * page_size
+    limit = page_size
+    result = db.fetch_jobs(min_score= min_score, verdict=verdict,limit=limit,offset=offset)
+    return {
+        "status":"success",
+        "total_count":result["total_count"],
+        "pages":result["pages"],
+        "page":page,
+        "page_size":page_size,
+        "data":result["jobs"]
+        }
 
 @app.get("/job/{job_id}", summary = "Fetch the job by job_id")
 def get_job_by_id(job_id: int):
@@ -92,11 +126,18 @@ def get_job_by_id(job_id: int):
     return {"status":"success", "data":job}
 
 @app.post("/scrape",summary = "Triger the job scrapper background task")
-def trigger_scrape(background_tasks: BackgroundTasks):
+def trigger_scrape(background_tasks: BackgroundTasks, body: ScrapeRequest = ScrapeRequest()):
     if scraper_status["is_running"]:
         return {"status":"ignored","message":"Scraper is already running"}
-    background_tasks.add_task(run_scrapper_task)
-    return {"status":"success", "message":"Scrapper triggered in the background"}
+    platforms = [p for p in body.platforms if p in ALLOWED_PLATFORMS]
+    if not platforms:
+        raise HTTPException(status_code=400, detail="No valid platforms selected")
+    background_tasks.add_task(run_scrapper_task, platforms)
+    return {
+        "status":"success",
+        "message":f"Scraper triggered for: {', '.join(platforms)}",
+        "platforms": platforms,
+    }
 
 @app.get("/status",summary= "Check the API status ")
 def get_status():

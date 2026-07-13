@@ -2,7 +2,7 @@ from psycopg2.errors import TooManyColumns
 from asyncio import base_events
 import psycopg2
 from psycopg2.extras import Json
-
+import math
 import os
 
 
@@ -33,6 +33,7 @@ class DatabaseManager:
             link TEXT UNIQUE NOT NULL, -- UNIQUE constraint is crucial for upserts
             description TEXT,
             ai_score INTEGER DEFAULT 0,
+            date_posted DATE,
             verdict VARCHAR(50),
             missing_skills JSONB DEFAULT '[]'::jsonb,
             red_flags JSONB DEFAULT '[]'::jsonb,
@@ -82,8 +83,10 @@ class DatabaseManager:
     def job_exists(self,link:str)-> bool :
         query = "SELECT 1 FROM jobs WHERE link = %s"
         try:
-            with self.connection.cursor as cur:
-                rows = cur.execute(query,(link,))
+            with self.connection.cursor() as cur:
+                cur.execute(query,(link,))
+                # cur does not return anything it just store the result in cur object 
+                #  which we can retrieve after using one of the cur function like fetchall fetchone
                 return cur.fetchone() is not None
         except Exception as e:
             print(f"Error checking if job exists: {e}")
@@ -91,17 +94,24 @@ class DatabaseManager:
                     
 
 
-    def fetch_jobs(self, min_score:int = 0,verdict:str = None):
+    def fetch_jobs(self, min_score:int = 0,limit:int=1,offset:int=0,verdict:str = None):
         """Fetch jobs from the database based on AI score and verdict."""
         query = """
         SELECT id, title,company,link,description,ai_score,verdict,missing_skills,red_flags,created_at 
         FROM jobs
         WHERE ai_score >= %s
-        ORDER_BY ai_score DESC
+        ORDER BY ai_score DESC LIMIT %s OFFSET %s
         """
-        params = [min_score]
+        params = [min_score,limit,offset]
+
+        query2= """SELECT COUNT(*) FROM jobs where ai_score>= %s"""
+        params2=[min_score]
         try:
             with self.connection.cursor() as cur:
+                cur.execute(query2,(min_score,))
+                total_count = cur.fetchone()[0]
+
+                pages = math.ceil(total_count / limit) if total_count > 0 else 0
                 cur.execute(query,params)
                 columns = [col[0] for col in cur.description]
                 result = []
@@ -112,10 +122,18 @@ class DatabaseManager:
                     # {values : "Anjan", 23 };
                     # after zip 
                     # {"name":"danish","Age":23}
-                return result
+                return {
+                    "total_count":total_count,
+                    "pages":pages,
+                    "jobs":result
+                }
         except Exception as e:
             print(f"Failed to fetch a jobs: {e}")
-            return []
+            return {
+                "total_count": 0,
+                "pages": 0,
+                "jobs": []
+                }
     
     def fetch_jobs_by_id(self,job_id:int):
         """Fetch a specific job by its ID"""
