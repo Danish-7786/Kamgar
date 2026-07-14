@@ -43,20 +43,23 @@ class DatabaseManager:
         """
         with self.connection.cursor() as cur:
             cur.execute(query)
+            # Safe database migration: Add date_posted column if it doesn't already exist
+            cur.execute("ALTER TABLE jobs ADD COLUMN IF NOT EXISTS date_posted DATE;")
             print("Database tables verified.")
 
 
     def upsert_job(self,raw_job_data: dict, ai_result: dict):
         """It will add the jobs to the DB"""
         query = """
-        INSERT INTO jobs (title, company, link, description, ai_score, verdict, missing_skills, red_flags)
-        VALUES (%s, %s, %s, %s, %s, %s, %s, %s)
+        INSERT INTO jobs (title, company, link, description, ai_score, verdict, missing_skills, red_flags, date_posted)
+        VALUES (%s, %s, %s, %s, %s, %s, %s, %s, %s)
         ON CONFLICT (link) 
         DO UPDATE SET 
             ai_score = EXCLUDED.ai_score,
             verdict = EXCLUDED.verdict,
             missing_skills = EXCLUDED.missing_skills,
             red_flags = EXCLUDED.red_flags,
+            date_posted = EXCLUDED.date_posted,
             updated_at = CURRENT_TIMESTAMP;
         """
         values = (
@@ -67,7 +70,8 @@ class DatabaseManager:
             ai_result.get("ai_score", 0),
             ai_result.get("verdict", "Unknown"),
             Json(ai_result.get("missing_skills", [])),
-            Json(ai_result.get("red_flags", []))
+            Json(ai_result.get("red_flags", [])),
+            raw_job_data.get("date_posted") or None
         )
         try:
           with self.connection.cursor() as cur:
@@ -94,50 +98,61 @@ class DatabaseManager:
                     
 
 
-    def fetch_jobs(self, min_score:int = 0,limit:int=1,offset:int=0,verdict:str = None):
+    def fetch_jobs(self, min_score: int = 0, limit: int = 1, offset: int = 0, verdict: str = None, sort_by: str = "created_at"):
         """Fetch jobs from the database based on AI score and verdict."""
-        query = """
-        SELECT id, title,company,link,description,ai_score,verdict,missing_skills,red_flags,created_at 
-        FROM jobs
-        WHERE ai_score >= %s
-        ORDER BY ai_score DESC LIMIT %s OFFSET %s
-        """
-        params = [min_score,limit,offset]
+        # Determine the sorting column to prevent SQL injection and dynamic parameter issues
+        if sort_by == "score":
+            order_column = "ai_score"
+        else:
+            order_column = "created_at"
 
-        query2= """SELECT COUNT(*) FROM jobs where ai_score>= %s"""
-        params2=[min_score]
+        query_conditions = ["ai_score >= %s"]
+        params = [min_score]
+
+        if verdict:
+            query_conditions.append("verdict = %s")
+            params.append(verdict)
+
+        conditions_str = " AND ".join(query_conditions)
+
+        query = f"""
+        SELECT id, title, company, link, description, ai_score, verdict, missing_skills, red_flags, created_at, date_posted 
+        FROM jobs
+        WHERE {conditions_str}
+        ORDER BY {order_column} DESC LIMIT %s OFFSET %s
+        """
+        select_params = params + [limit, offset]
+
+        query2 = f"SELECT COUNT(*) FROM jobs WHERE {conditions_str}"
+        count_params = params
+
         try:
             with self.connection.cursor() as cur:
-                cur.execute(query2,(min_score,))
+                cur.execute(query2, count_params)
                 total_count = cur.fetchone()[0]
 
                 pages = math.ceil(total_count / limit) if total_count > 0 else 0
-                cur.execute(query,params)
+                cur.execute(query, select_params)
                 columns = [col[0] for col in cur.description]
                 result = []
                 for row in cur.fetchall():
-                    result.append(dict(zip(columns,row)))
-                    # zip -> bounds the attribute to the value 
-                    # {cols : "name","age"}
-                    # {values : "Anjan", 23 };
-                    # after zip 
-                    # {"name":"danish","Age":23}
+                    result.append(dict(zip(columns, row)))
                 return {
-                    "total_count":total_count,
-                    "pages":pages,
-                    "jobs":result
+                    "total_count": total_count,
+                    "pages": pages,
+                    "jobs": result
                 }
         except Exception as e:
-            print(f"Failed to fetch a jobs: {e}")
+            print(f"Failed to fetch jobs: {e}")
             return {
                 "total_count": 0,
                 "pages": 0,
                 "jobs": []
-                }
+            }
     
     def fetch_jobs_by_id(self,job_id:int):
         """Fetch a specific job by its ID"""
-        query =  """ SELECT id, title, company, link, description, ai_score, verdict, missing_skills, red_flags, created_at 
+        query =  """ SELECT id, title, company, link, description, ai_score, verdict, missing_skills, red_flags, created_at, date_posted 
         FROM jobs
         WHERE id = %s
         """

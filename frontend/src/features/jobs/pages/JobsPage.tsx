@@ -2,27 +2,42 @@ import { useState } from "react";
 import { JobCard } from "../components/JobCard";
 import { useJobs } from "../hooks/useJobs";
 import { JobsPagination } from "../components/Pagination";
-
+import { JobFilter } from "../components/JobFilter";
 const PAGE_SIZE = 20;
 
 export function JobsPage() {
   const [page, setPage] = useState(1);
+  const [sortBy, setSortBy] = useState('');
+
   const { data, isLoading, isError, error, isPlaceholderData } = useJobs({
     page,
     page_size: PAGE_SIZE,
+    sort_by: sortBy || undefined,
   });
+
+  const handleSortChange = (newSortBy: string) => {
+    setSortBy(newSortBy);
+    setPage(1);
+  };
 
   const jobs = data?.jobs ?? [];
   const totalPages = data?.pages ?? 1;
 
   return (
     <section className="space-y-6">
+     <div className="flex justify-between">
+
       <div>
         <h2 className="text-2xl font-semibold tracking-tight">Jobs</h2>
+
         <p className="text-sm text-muted-foreground">
           Scored postings from the scraper.
         </p>
       </div>
+      <div>
+       <JobFilter value={sortBy} onSelect={handleSortChange} />
+      </div>
+     </div>
 
       {isLoading && <p className="text-sm text-muted-foreground">Loading jobs…</p>}
 

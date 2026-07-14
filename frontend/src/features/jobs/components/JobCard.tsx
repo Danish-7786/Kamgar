@@ -30,13 +30,23 @@ function scoreTextClasses(score: number): string {
 }
 
 export function JobCard({ job }: { job: Job }) {
+  const today: Date = new Date();
+  let differenceInDays : string| number = "N/A"
+  if (job.date_posted){
+
+    const postedAgo = new Date(job.date_posted);
+    const differenceInMs = today.getTime() - postedAgo.getTime();
+     const days = Math.floor(differenceInMs / (1000 * 60 * 60 * 24));
+    differenceInDays = days <= 0 ? "Today" : `${days}d ago`;
+    
+  }
   return (
     <Card className={cn("w-full", scoreCardClasses(job.ai_score))}>
       <CardHeader>
         <div>
 
-        <CardTitle className="text-lg font-bold">{job.title}</CardTitle>
-        <CardTitle>{job.date_posted}</CardTitle>
+          <CardTitle className="text-lg font-bold">{job.title}</CardTitle>
+          <CardTitle>{differenceInDays}</CardTitle>
         </div>
         <CardDescription className="font-bold text-foreground">
           {job.company}

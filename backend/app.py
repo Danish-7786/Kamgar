@@ -9,7 +9,7 @@ from fastapi import FastAPI, BackgroundTasks, Query, HTTPException
 from Queue.job_queue import process_job,ai_worker
 from fastapi.middleware.cors import CORSMiddleware
 from pydantic import BaseModel
-
+import pandas as pd
 # Platforms supported by the underlying jobspy scraper.
 ALLOWED_PLATFORMS = ["indeed", "linkedin", "google", "glassdoor", "zip_recruiter", "bayt", "naukri", "bdjobs"]
 DEFAULT_PLATFORMS = ["indeed", "linkedin", "google"]
@@ -79,16 +79,25 @@ def run_scrapper_task(site_name=None):
                 return ""
             return str(val).strip()
         count=0
+       
         for index,row in jobs_df.iterrows():
             title = clean_val(row.get("title"))
             company = clean_val(row.get("company"))
-            date_posted = clean_val(row.get("date_posted"))
+            
+            # Safely parse date_posted to YYYY-MM-DD format
+            raw_date = row.get("date_posted")
+            date_posted = ""
+            if pd.notna(raw_date):
+                try:
+                    date_posted = pd.to_datetime(raw_date).strftime("%Y-%m-%d")
+                except Exception:
+                    date_posted = clean_val(raw_date)
+
             link = clean_val(row.get("job_url") or row.get("job_url_direct"))
             description = clean_val(row.get("description"))
     
-
-             # Pre-filter and publish to RabbitMQ
-            process_job(title=title, company=company,date_posted = date_posted, link=link, description=description)
+            # Pre-filter and publish to RabbitMQ
+            process_job(title=title, company=company, date_posted=date_posted, link=link, description=description)
             count +=1
         scraper_status["jobs_processed"] = count
         scraper_status["last_run"] = datetime.now().isoformat()
@@ -105,16 +114,18 @@ def get_jobs(
     verdict : str = Query(None, description = "AI verdict filter (e.g., 'Strong Match','Partial Match')"),
     page_size: int = Query(10, description="Number of records to fetch", ge=1, le=100),
     page: int = Query(1, description="1-based page number", ge=1),
+    sort_by: str = Query("created_at", description="Sort criteria ('created_at' or 'score')"),
     ):
     offset = (page - 1) * page_size
     limit = page_size
-    result = db.fetch_jobs(min_score= min_score, verdict=verdict,limit=limit,offset=offset)
+    result = db.fetch_jobs(min_score= min_score, verdict=verdict,limit=limit,offset=offset, sort_by=sort_by)
     return {
         "status":"success",
         "total_count":result["total_count"],
         "pages":result["pages"],
         "page":page,
         "page_size":page_size,
+        
         "data":result["jobs"]
         }
 

@@ -6,7 +6,9 @@ export interface JobsFilters {
   min_score?: number;
   verdict?: Verdict;
   page: number;
+
   page_size: number;
+  sort_by?: string;
 }
 
 // Backend wraps the paginated payload in this envelope.
@@ -35,6 +37,8 @@ export interface PaginatedJobs {
 
 export async function fetchJobs(filters: JobsFilters = { page: 1, page_size: 20 }): Promise<PaginatedJobs> {
   const { data } = await apiClient.get<JobsResponse>("/jobs", { params: filters });
+  console.log(data);
+  
   return {
     jobs: data.data,
     total: data.total_count,

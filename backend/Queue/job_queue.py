@@ -31,7 +31,7 @@ def process_job(title: str,date_posted:str, company: str, link: str, description
     PRODUCER: This callback pre-filters the job, and if it passes, publishes to RabbitMQ.
     """
     clean_desc = description.replace('\n', ' ').strip()
-    print("clean_desc", clean_desc)
+   
     
     # Run the fast, free regex filter first
     result = job_filter.score_job(title=title, description=clean_desc)
@@ -53,7 +53,7 @@ def process_job(title: str,date_posted:str, company: str, link: str, description
         "date_posted":date_posted,
         "description": description
     }
-    
+    print(f"job date ${job_payload['date_posted']}")
     # Publish to RabbitMQ
     channel.basic_publish(
         exchange='',
