@@ -29,14 +29,39 @@ scraper_status = {
     "offset": 0
 }
 
+import json
+
+STATUS_FILE = "scraper_status.json"
+
+def load_status():
+    global scraper_status
+    if os.path.exists(STATUS_FILE):
+        try:
+            with open(STATUS_FILE, "r") as f:
+                saved = json.load(f)
+                # Ensure is_running is False on startup to prevent stuck states
+                saved["is_running"] = False
+                scraper_status.update(saved)
+        except Exception as e:
+            print(f"Failed to load scraper status: {e}")
+
+def save_status():
+    try:
+        with open(STATUS_FILE, "w") as f:
+            json.dump(scraper_status, f, indent=4)
+    except Exception as e:
+        print(f"Failed to save scraper status: {e}")
+
 # How many results per site to pull per run; also the amount the offset
 # advances each run so consecutive scrapes page through fresh jobs.
-BATCH_SIZE = 30
+BATCH_SIZE = 80
 
 @asynccontextmanager
 async def lifespan(app: FastAPI):
     print("Initializing Database tables...")
     db.create_table()
+    print("Loading scraper status...")
+    load_status()
     print("Starting background AI consumer worker thread ....")
     worker_thread = threading.Thread(target= ai_worker, daemon=True)
     worker_thread.start()
@@ -67,6 +92,7 @@ def run_scrapper_task(site_name=None):
         site_name = DEFAULT_PLATFORMS
     scraper_status["jobs_processed"] = 0
     scraper_status["is_running"] = True
+    save_status()
     try:
         offset = scraper_status.get("offset", 0)
         jobs_df = job_scrapper(site_name=site_name, results_wanted=BATCH_SIZE, offset=offset)
@@ -74,6 +100,7 @@ def run_scrapper_task(site_name=None):
         # If this batch came back empty we've exhausted the listings, so
         # wrap back to the start instead of paging into nothing forever.
         scraper_status["offset"] = 0 if len(jobs_df) == 0 else offset + BATCH_SIZE
+        save_status()
         def clean_val(val):
             if val is None or (isinstance(val, float)) and str(val).lower() == 'nan':
                 return ""
@@ -101,10 +128,12 @@ def run_scrapper_task(site_name=None):
             count +=1
         scraper_status["jobs_processed"] = count
         scraper_status["last_run"] = datetime.now().isoformat()
+        save_status()
     except Exception as e:
         print(f"Error during background scraper task: {e}")
     finally:
         scraper_status["is_running"] = False
+        save_status()
 
 
 

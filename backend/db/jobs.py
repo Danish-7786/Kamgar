@@ -35,6 +35,7 @@ class DatabaseManager:
             ai_score INTEGER DEFAULT 0,
             date_posted DATE,
             verdict VARCHAR(50),
+            is_applied BOOLEAN,
             missing_skills JSONB DEFAULT '[]'::jsonb,
             red_flags JSONB DEFAULT '[]'::jsonb,
             created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
@@ -45,6 +46,7 @@ class DatabaseManager:
             cur.execute(query)
             # Safe database migration: Add date_posted column if it doesn't already exist
             cur.execute("ALTER TABLE jobs ADD COLUMN IF NOT EXISTS date_posted DATE;")
+            cur.execute("ALTER TABLE jobs ADD COLUMN IF NOT EXISTS is_applied BOOLEAN;")
             print("Database tables verified.")
 
 
