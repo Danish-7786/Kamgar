@@ -96,6 +96,21 @@ class Salary(BaseModel):
 
 
 # --------------------------------------------------------------------------- #
+# RawSalary — the permissive salary shape the LLM fills. `period` is free text
+# ("yearly", "per annum", "monthly"); normalization maps it to SalaryPeriod.
+# Keeping this separate from Salary is why a messy period string can't blow up
+# the whole extraction.
+# --------------------------------------------------------------------------- #
+class RawSalary(BaseModel):
+    model_config = ConfigDict(extra="ignore")
+
+    min_amount: Optional[float] = None
+    max_amount: Optional[float] = None
+    currency: Optional[str] = None
+    period: Optional[str] = None
+
+
+# --------------------------------------------------------------------------- #
 # ExtractedJob — the LLM's raw output. Permissive by design.
 #   * every field optional, because the model may not find it
 #   * seniority / employment_type / remote are plain strings here — they get
@@ -115,7 +130,7 @@ class ExtractedJob(BaseModel):
     experience_min_years: Optional[int] = None
     experience_max_years: Optional[int] = None
 
-    salary: Optional[Salary] = None
+    salary: Optional[RawSalary] = None
     location: Optional[str] = None
     remote: Optional[str] = None
     employment_type: Optional[str] = None
@@ -131,7 +146,8 @@ class ExtractedJob(BaseModel):
 class ProcessedJob(BaseModel):
     model_config = ConfigDict(extra="forbid")
 
-    role: str
+    # Optional: validation (Module 4) permits a skills-only job with no role.
+    role: Optional[str] = None
     seniority: Seniority
     skills: list[str]
     nice_to_have_skills: list[str] = Field(default_factory=list)

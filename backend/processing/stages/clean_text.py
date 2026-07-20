@@ -1,4 +1,3 @@
-from xlrd.biffh import unpack_unicode_update_pos
 from __future__ import annotations
 
 

@@ -15,9 +15,11 @@ def test_decodes_html_entities():
 
 
 def test_collapses_whitespace_and_blank_lines():
+    # Runs of blank lines collapse to at most ONE (paragraph break preserved);
+    # trailing/leading and intra-line whitespace is squeezed.
     messy = "Line one   \n\n\n\n   Line two\t\tend  "
     cleaned = clean_text(messy)
-    assert cleaned == "Line one\nLine two end"
+    assert cleaned == "Line one\n\nLine two end"
 
 
 def test_preserves_case_and_technical_punctuation():
