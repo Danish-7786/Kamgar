@@ -1,7 +1,7 @@
 
 from scraper.job_scrapper import job_scrapper
 from contextlib import asynccontextmanager
-from db.models import DatabaseManager
+from db.jobs import DatabaseManager
 import os
 from datetime import datetime
 import threading 
@@ -10,6 +10,7 @@ from Queue.job_queue import process_job,ai_worker
 from fastapi.middleware.cors import CORSMiddleware
 from pydantic import BaseModel
 import pandas as pd
+from scraper.ats_collectors import collect_companies
 # Platforms supported by the underlying jobspy scraper.
 ALLOWED_PLATFORMS = ["indeed", "linkedin", "google", "glassdoor", "zip_recruiter", "bayt", "naukri", "bdjobs"]
 DEFAULT_PLATFORMS = ["indeed", "linkedin", "google"]
@@ -126,6 +127,24 @@ def run_scrapper_task(site_name=None):
             # Pre-filter and publish to RabbitMQ
             process_job(title=title, company=company, date_posted=date_posted, link=link, description=description)
             count +=1
+            
+        # Collect jobs from companies configured in company.json.
+        ats_jobs, reports = collect_companies()
+
+        # Keep company successes and failures available through /status.
+        scraper_status["company_reports"] = reports
+        save_status()
+
+        # Send ATS jobs through the existing filter and RabbitMQ pipeline.
+        for job in ats_jobs:
+            process_job(
+                title=job["title"],
+                company=job["company"],
+                date_posted=job["date_posted"] or "",
+                link=job["link"],
+                description=job["description"],
+            )
+        count += 1
         scraper_status["jobs_processed"] = count
         scraper_status["last_run"] = datetime.now().isoformat()
         save_status()
@@ -173,6 +192,7 @@ def trigger_scrape(background_tasks: BackgroundTasks, body: ScrapeRequest = Scra
     if not platforms:
         raise HTTPException(status_code=400, detail="No valid platforms selected")
     background_tasks.add_task(run_scrapper_task, platforms)
+  
     return {
         "status":"success",
         "message":f"Scraper triggered for: {', '.join(platforms)}",

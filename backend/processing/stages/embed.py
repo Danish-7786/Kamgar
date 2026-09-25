@@ -1,7 +1,8 @@
-from backend.processing.stages.extract import build_prompt
-from processing.schema import ProcessedJob
+import math
+from processing.schemas import ProcessedJob
 from typing import Optional, Protocol, Sequence
 EMBEDDING_DIM = 384
+EMBEDDING_MODEL = "sentence-transformers/all-MiniLM-L6-v2"
 
 
 EMBEDDING_RECIPE_VERSION = 1
@@ -56,18 +57,28 @@ class JobEmbedder:
         self._dim = dim
     
     def embed(self, job: ProcessedJob)-> list[float]:
-        vec = list(self._encoder.encode([build_embedding_text(job)])[0])
+        return self.embed_many([job])[0]
+
+    def _validate(self, vector) -> list[float]:
+        vec = [float(x) for x in vector]
         if len(vec) != self._dim:
             raise ValueError(f"expected {self._dim} - dim vector, got {len(vec)}")
-        return [float(x) for x in vec]
+        if not all(math.isfinite(x) for x in vec) or not any(vec):
+            raise ValueError("embedding must be finite and nonzero")
+        return vec
     def embed_many(self,jobs:Sequence[ProcessedJob])-> list[list[float]]:
+        if not jobs:
+            return []
         texts= [build_embedding_text(j) for j in jobs]
-        return [[float(x) for x in v] for v in self._encoder.encode(texts)]
+        vectors = list(self._encoder.encode(texts))
+        if len(vectors) != len(texts):
+            raise ValueError("encoder returned the wrong number of vectors")
+        return [self._validate(v) for v in vectors]
 
 class FastEmbedEncoder:
     """Production encoder. Lazy-imports fastembed so the module (and its
     tests) load without the dependency present."""
-    def __init__(self,model_name: str = "sentence-transformers/all-MiniLM-L6-v2"):
+    def __init__(self,model_name: str = EMBEDDING_MODEL):
         from fastembed import TextEmbedding
         self._model = TextEmbedding(model_name = model_name)
     def encode(self,texts:Sequence[str])-> list[list[float]]:

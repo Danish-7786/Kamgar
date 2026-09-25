@@ -1,5 +1,45 @@
 # Distributed Job Scraper & Matcher Bot
 
+## Generate and store job embeddings
+
+The embedding pipeline uses local FastEmbed (`sentence-transformers/all-MiniLM-L6-v2`,
+384 dimensions) and PostgreSQL with the **pgvector** extension. Install pgvector
+on the PostgreSQL server first: https://github.com/pgvector/pgvector#installation.
+The database user must be allowed to run `CREATE EXTENSION IF NOT EXISTS vector`.
+Installing a Python package alone does not install the PostgreSQL extension.
+
+From the project root in PowerShell:
+
+```powershell
+cd backend
+.\venv\Scripts\Activate.ps1
+python embed_jobs.py --limit 50
+```
+
+Uses `DB_HOST`, `DB_PORT` (default 5432), `DB_NAME`, `DB_USER`, `DB_PASSWORD`,
+and `GROQ_API_KEY` from `backend/.env`. Install `requirements.txt` if needed.
+The first run downloads the embedding model. Structured job extraction calls
+Groq; embedding generation then runs locally.
+
+The command copies existing `jobs` into `raw_jobs` by unique application link,
+processes up to the requested number of pending rows, and stores structured
+fields and vectors in `processed_jobs.embedding`. Repeated runs skip completed
+jobs. Use `python embed_jobs.py --limit 50 --retry-failed` to retry failures.
+Run one embedding command at a time; it is a batch worker, not a concurrent queue.
+Run it again after scraping to embed newly saved jobs. This backfill includes
+only jobs retained by the existing scraper/scorer, plus any pending raw jobs.
+
+Verify in PostgreSQL:
+
+```sql
+SELECT id, role, vector_dims(embedding) AS dimensions
+FROM processed_jobs LIMIT 10;
+```
+
+Model and embedding recipe must remain consistent when embedding candidate
+profiles for future similarity search. Changing the model requires re-embedding
+stored jobs. Resume upload and vector search are not yet connected to the UI.
+
 An intelligent, distributed job scraping and filtering pipeline. The bot scrapes job openings from LinkedIn, filters out irrelevant positions using a fast deterministic pre-filter, passes potential matches into a RabbitMQ message queue, and evaluates them using a background AI matching worker powered by the Google Gemini API.
 
 ---

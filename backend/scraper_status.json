@@ -1,0 +1,24 @@
+{
+    "is_running": false,
+    "last_run": "2026-09-24T23:07:54.983753",
+    "jobs_processed": 81,
+    "offset": 400,
+    "company_reports": [
+        {
+            "company": "Stripe",
+            "source": "greenhouse",
+            "board": "stripe",
+            "status": "success",
+            "job_count": 695,
+            "error": null
+        },
+        {
+            "company": "Ashby",
+            "source": "ashby",
+            "board": "Ashby",
+            "status": "success",
+            "job_count": 68,
+            "error": null
+        }
+    ]
+}

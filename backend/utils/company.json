@@ -1,0 +1,92 @@
+[
+    {
+        "name": "Stripe",
+        "source": "greenhouse",
+        "board": "stripe"
+    },
+    {
+        "name": "Ashby",
+        "source": "ashby",
+        "board": "Ashby"
+    },
+    {
+        "name": "Airbnb",
+        "source": "greenhouse",
+        "board": "airbnb"
+    },
+    {
+        "name": "Cloudflare",
+        "source": "greenhouse",
+        "board": "cloudflare"
+    },
+    {
+        "name": "Coinbase",
+        "source": "greenhouse",
+        "board": "coinbase"
+    },
+    {
+        "name": "Databricks",
+        "source": "greenhouse",
+        "board": "databricks"
+    },
+    {
+        "name": "Figma",
+        "source": "greenhouse",
+        "board": "figma"
+    },
+    {
+        "name": "GitLab",
+        "source": "greenhouse",
+        "board": "gitlab"
+    },
+    {
+        "name": "MongoDB",
+        "source": "greenhouse",
+        "board": "mongodb"
+    },
+    {
+        "name": "Cursor",
+        "source": "ashby",
+        "board": "cursor"
+    },
+    {
+        "name": "ElevenLabs",
+        "source": "ashby",
+        "board": "elevenlabs"
+    },
+    {
+        "name": "Linear",
+        "source": "ashby",
+        "board": "linear"
+    },
+    {
+        "name": "Notion",
+        "source": "ashby",
+        "board": "notion"
+    },
+    {
+        "name": "OpenAI",
+        "source": "ashby",
+        "board": "openai"
+    },
+    {
+        "name": "Perplexity",
+        "source": "ashby",
+        "board": "perplexity"
+    },
+    {
+        "name": "Ramp",
+        "source": "ashby",
+        "board": "ramp"
+    },
+    {
+        "name": "Replit",
+        "source": "ashby",
+        "board": "replit"
+    },
+    {
+        "name": "Zapier",
+        "source": "ashby",
+        "board": "zapier"
+    }
+]

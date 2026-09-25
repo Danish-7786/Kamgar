@@ -1,4 +1,5 @@
 import logging
+from dataclasses import dataclass, asdict
 
 
 from processing.stages.clean_text import clean_text
@@ -9,6 +10,7 @@ from processing.stages.validate import ValidationRejection, validate
 logger = logging.getLogger(__name__)
 
 
+@dataclass
 class ProcessingStats:
     processed: int = 0
     skipped: int = 0
@@ -17,8 +19,8 @@ class ProcessingStats:
     
     def bump(self,outcome: str)-> None:
         setattr(self,outcome,getattr(self,outcome)+1)
-        def as_dict(self)-> dict:
-            return self.__dict__
+    def as_dict(self)-> dict:
+        return asdict(self)
 
 
 
@@ -53,5 +55,9 @@ class JobProcessor:
 
 
 
-def _quarantine(self, raw_id, error, outcome,level)-> str:
-    
+    def _quarantine(self, raw_id, error, outcome, level)-> str:
+        self.conn.rollback()
+        logger.log(level, "Raw job %s: %s", raw_id, error)
+        self.raw_repo.mark_failed(raw_id, error)
+        self.conn.commit()
+        return outcome

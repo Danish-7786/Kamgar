@@ -6,7 +6,7 @@ import time
 from linkedin_jobs_scraper.events import EventData
 from scorer.deterministic_job_scrorer import DeterministicJobScorer
 
-from db.models import DatabaseManager
+from db.jobs import DatabaseManager
 
 
 from scorer.ai_scorer import AIScorer
